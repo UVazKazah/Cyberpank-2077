@@ -2282,3 +2282,2306 @@ seg000:0000000000002881 ; ------------------------------------------------------
 seg000:0000000000002881                 xchg    eax, esi
 seg000:0000000000002882                 retn
 seg000:0000000000002882 ; ---------------------------------------------------------------------------
+seg000:0000000000002883                 db 0F2h, 14h, 34h, 0E5h, 6Fh
+seg000:0000000000002888                 db  10h
+seg000:0000000000002889                 db    1
+seg000:000000000000288A                 dw 89CDh, 0AA2Ah, 11Ah
+seg000:0000000000002890                 db  55h ; U
+seg000:0000000000002891                 dd offset loc_21DEEC10
+seg000:0000000000002895                 db 0C8h, 3, 8Ah
+seg000:0000000000002898                 db  8Eh
+seg000:0000000000002899                 db 2Bh, 4Bh, 58h, 95h, 0DEh, 32h, 3Ch
+seg000:00000000000028A0                 db  9Fh
+seg000:00000000000028A1                 db 67h, 56h, 3Eh, 0EDh, 0D2h, 0D6h, 0EAh
+seg000:00000000000028A8                 db  4Dh ; M
+seg000:00000000000028A9                 db  33h ; 3
+seg000:00000000000028AA                 dw 49D6h, 5ECCh, 0D454h
+seg000:00000000000028B0                 db 0F2h
+seg000:00000000000028B1                 db 0AAh
+seg000:00000000000028B2                 dw 3A6Eh, 9D5Dh, 733Fh
+seg000:00000000000028B8                 db  25h ; %
+seg000:00000000000028B9                 db 0F6h
+seg000:00000000000028BA                 db 0A9h
+seg000:00000000000028BB                 db  7Eh ; ~
+seg000:00000000000028BC                 db  88h
+seg000:00000000000028BD                 db 31h, 0F0h, 2Bh
+seg000:00000000000028C0                 db 0ABh
+seg000:00000000000028C1                 dd offset dword_87E0093+2
+seg000:00000000000028C5                 db 4Ch, 0A1h, 5Ch
+seg000:00000000000028C8                 db 0FBh
+seg000:00000000000028C9                 dd offset unk_28B595A7
+seg000:00000000000028CD                 db 21h, 0DCh, 0B7h
+seg000:00000000000028D0                 db 0BEh
+seg000:00000000000028D1 byte_28D1       db 0E8h, 9Eh, 0F6h, 51h, 0CAh, 0F7h, 86h
+seg000:00000000000028D1                                         ; DATA XREF: seg000:off_102C67EA↓o
+seg000:00000000000028D8                 db  60h ; `
+seg000:00000000000028D9                 db  84h
+seg000:00000000000028DA                 dw 0CAD4h, 0D8ADh, 0DB1Bh
+seg000:00000000000028E0                 db  7Fh ; 
+seg000:00000000000028E1                 db  69h ; i
+seg000:00000000000028E2                 dw 0A6BCh, 0D5F6h, 7812h
+seg000:00000000000028E8                 db  99h
+seg000:00000000000028E9                 db 0Ah, 2, 0Bh, 77h, 0DAh, 4Bh, 25h
+seg000:00000000000028F0                 db    2
+seg000:00000000000028F1                 db  99h
+seg000:00000000000028F2                 dd offset byte_396C1101
+seg000:00000000000028F6                 dw 5272h
+seg000:00000000000028F8                 dq 5D60EE7908435E68h
+seg000:0000000000002900 unk_2900        db 0F3h                 ; DATA XREF: seg000:0000000000A6E7CA↓o
+seg000:0000000000002900                                         ; seg000:000000000150F0DA↓o ...
+seg000:0000000000002901                 db 0E7h
+seg000:0000000000002902                 db 0E3h
+seg000:0000000000002903                 db 0FDh
+seg000:0000000000002904                 db  68h ; h
+seg000:0000000000002905                 db  8Dh
+seg000:0000000000002906                 db  33h ; 3
+seg000:0000000000002907                 db 0FDh
+seg000:0000000000002908                 db  24h ; $
+seg000:0000000000002909                 db  7Ch ; |
+seg000:000000000000290A                 dw 0E773h, 4CE1h, 298h
+seg000:0000000000002910 ; ---------------------------------------------------------------------------
+seg000:0000000000002910                 adc     cs:70ECD24Ah, ch
+seg000:0000000000002916 ; [00000001 BYTES: COLLAPSED FUNCTION nullsub_1488. PRESS CTRL-NUMPAD+ TO EXPAND]
+seg000:0000000000002917                 db  81h
+seg000:0000000000002918                 db 0B4h
+seg000:0000000000002919                 db 0FCh
+seg000:000000000000291A word_291A       dw 101Dh, 0CB67h, 77BDh ; DATA XREF: seg000:0000000001024B56↓o
+seg000:0000000000002920                 db 0D8h
+seg000:0000000000002921                 db 0C9h
+seg000:0000000000002922 off_2922        dd offset unk_2FB99FD5  ; DATA XREF: seg000:000000000107E8A6↓o
+seg000:0000000000002926 word_2926       dw 0EA36h               ; DATA XREF: seg000:000000000169DA67↓o
+seg000:0000000000002926                                         ; seg000:000000000095614D↓o
+seg000:0000000000002928                 db 0CAh
+seg000:0000000000002929 off_2929        dd offset unk_482A9DD   ; DATA XREF: seg000:000000000165A2A3↓o
+seg000:000000000000292D                 db    3
+seg000:000000000000292E                 db  35h ; 5
+seg000:000000000000292F off_292F        dd offset unk_1E11767A  ; DATA XREF: seg000:00000000029A1636↓o
+seg000:0000000000002933                 db    3
+seg000:0000000000002934                 db 0F1h
+seg000:0000000000002935                 db  56h ; V
+seg000:0000000000002936                 db 0E8h
+seg000:0000000000002937                 db 0A5h
+seg000:0000000000002938                 db  39h ; 9
+seg000:0000000000002939                 dd offset loc_383C23E8
+seg000:000000000000293D unk_293D        db  51h ; Q             ; DATA XREF: seg000:0000000001BD155F↓o
+seg000:000000000000293E                 db 0D8h
+seg000:000000000000293F                 db 0C7h
+seg000:0000000000002940 off_2940        dq 77283E5B346882F2h    ; DATA XREF: seg000:00000000312E9E12↓o
+seg000:0000000000002948                 db  7Fh ; 
+seg000:0000000000002949                 db 0C6h, 0E8h, 8Bh, 0DFh, 8Ah, 98h, 0E9h
+seg000:0000000000002950                 db  93h
+seg000:0000000000002951                 db 0CAh, 0FDh, 31h, 64h, 0A7h, 0D9h, 0C2h
+seg000:0000000000002958                 db  23h ; #
+seg000:0000000000002959                 dd offset off_1FCBBF36
+seg000:000000000000295D                 db 0F4h, 6Bh, 0C6h
+seg000:0000000000002960                 db  55h ; U
+seg000:0000000000002961 byte_2961       db 0AEh, 0F9h, 6Ch, 0E6h, 0DDh, 7Ch, 44h
+seg000:0000000000002961                                         ; DATA XREF: seg000:000000003BF36799↓o
+seg000:0000000000002968                 db 0AAh
+seg000:0000000000002969                 db 0FCh, 94h, 61h, 64h, 47h, 17h, 4
+seg000:0000000000002970                 db  6Fh ; o
+seg000:0000000000002971                 dd offset off_2319B5D6
+seg000:0000000000002975                 db    4
+seg000:0000000000002976                 db  13h
+seg000:0000000000002977                 db  70h ; p
+seg000:0000000000002978                 db 0C4h
+seg000:0000000000002979                 dd offset loc_28863A78+6
+seg000:000000000000297D                 db 0BEh, 0CEh, 5Ah
+seg000:0000000000002980                 db 0EDh
+seg000:0000000000002981                 db  1Eh
+seg000:0000000000002982                 db  9Ch
+seg000:0000000000002983                 db  3Bh ; ;
+seg000:0000000000002984                 db  65h ; e
+seg000:0000000000002985                 db  79h ; y
+seg000:0000000000002986                 db 0C9h
+seg000:0000000000002987                 db  88h
+seg000:0000000000002988                 db  2Bh ; +
+seg000:0000000000002989                 db 70h, 67h, 54h, 0D2h, 19h, 88h, 3
+seg000:0000000000002990                 db  0Dh
+seg000:0000000000002991                 db  7Ah ; z
+seg000:0000000000002992                 db  9Eh
+seg000:0000000000002993                 db 9Fh, 78h, 0A4h, 0FAh, 3Dh
+seg000:0000000000002998                 db 0AAh
+seg000:0000000000002999                 dd offset unk_3CC39BC1
+seg000:000000000000299D                 dd offset off_2B1298C2
+seg000:00000000000029A1                 db 8Fh, 0DAh, 50h, 0D8h, 7, 0EBh, 0DEh
+seg000:00000000000029A8                 db 0F9h
+seg000:00000000000029A9                 db 27h, 0FEh, 0EAh, 0EBh, 1Bh, 2Ch, 6Ah
+seg000:00000000000029B0                 db  23h ; #
+seg000:00000000000029B1                 dd offset byte_1B0104F3
+seg000:00000000000029B5                 db  0Ch
+seg000:00000000000029B6                 dd offset off_A0E0800+7
+seg000:00000000000029BA                 db  25h ; %
+seg000:00000000000029BB                 db  23h ; #
+seg000:00000000000029BC                 db  12h
+seg000:00000000000029BD                 db 91h, 48h, 25h
+seg000:00000000000029C0                 db 0D9h
+seg000:00000000000029C1                 dd offset byte_19F40D27
+seg000:00000000000029C5                 db    1
+seg000:00000000000029C6                 dw 1A0Fh
+seg000:00000000000029C8                 db  33h ; 3
+seg000:00000000000029C9                 dd offset unk_13738F4E
+seg000:00000000000029CD off_29CD        dd offset off_22151002  ; DATA XREF: seg000:0000000000103FC7↓o
+seg000:00000000000029D1                 db  3Dh ; =
+seg000:00000000000029D2                 dd offset unk_1106F362
+seg000:00000000000029D6                 dw 2E13h
+seg000:00000000000029D8                 dq 381312040FF7E453h
+seg000:00000000000029E0                 db 0C7h
+seg000:00000000000029E1                 dd offset off_138AFBD0+6
+seg000:00000000000029E5                 db  99h
+seg000:00000000000029E6                 dw 4DBEh
+seg000:00000000000029E8                 db  14h
+seg000:00000000000029E9                 db  5Ch ; \
+seg000:00000000000029EA                 dd offset unk_1F151081
+seg000:00000000000029EE                 db  44h ; D
+seg000:00000000000029EF                 db 0D3h
+seg000:00000000000029F0                 db 0EEh
+seg000:00000000000029F1                 db 13h, 16h, 0A2h, 0B5h, 0C2h, 0D1h, 0F6h
+seg000:00000000000029F8                 db  0Dh
+seg000:00000000000029F9                 db 0ABh
+seg000:00000000000029FA                 dd offset unk_1EBA8
+seg000:00000000000029FE                 dw 0BE2Fh
+seg000:0000000000002A00 unk_2A00        db  2Eh ; .             ; DATA XREF: seg000:0000000000036306↓o
+seg000:0000000000002A01 byte_2A01       db 0EAh, 0Eh, 94h, 0C2h, 0A0h, 2 dup(4)
+seg000:0000000000002A01                                         ; DATA XREF: seg000:0000000000CC6B51↓o
+seg000:0000000000002A01                                         ; seg000:0000000000EE5F92↓o ...
+seg000:0000000000002A08                 db  0Ah
+seg000:0000000000002A09                 db  48h ; H
+seg000:0000000000002A0A                 db  35h ; 5
+seg000:0000000000002A0B                 dd offset aIalizeferredes ; "ializeferredes8DescF"
+seg000:0000000000002A0F                 align 10h
+seg000:0000000000002A10                 db    3
+seg000:0000000000002A11                 align 2
+seg000:0000000000002A12                 dd offset word_40006
+seg000:0000000000002A16                 dd offset off_60005
+seg000:0000000000002A1A                 db  34h ; 4
+seg000:0000000000002A1B off_2A1B        dd offset unk_900020B   ; DATA XREF: seg000:000000000286411A↓o
+seg000:0000000000002A1F                 dd offset unk_211E180E
+seg000:0000000000002A23                 db  24h ; $
+seg000:0000000000002A24                 db  2Ch ; ,
+seg000:0000000000002A25                 dd offset byte_3B003A
+seg000:0000000000002A29 off_2A29        dd offset byte_3D003C15 ; DATA XREF: seg000:0000000000B99DBA↓o
+seg000:0000000000002A29                                         ; seg000:00000000013F03AA↓o
+seg000:0000000000002A2D                 align 2
+seg000:0000000000002A2E off_2A2E        dd offset word_1D003E06 ; DATA XREF: seg000:000000000296AB39↓o
+seg000:0000000000002A2E                                         ; seg000:000000000296ADE1↓o
+seg000:0000000000002A32 word_2A32       dw 0E00h, 4003h, 3801h  ; DATA XREF: seg000:0000000002968899↓o
+seg000:0000000000002A38                 db    1
+seg000:0000000000002A39                 db  3Ch ; <
+seg000:0000000000002A3A                 db    1
+seg000:0000000000002A3B                 dd offset off_640003F
+seg000:0000000000002A3F                 align 20h
+seg000:0000000000002A40                 db    1
+seg000:0000000000002A41                 dd offset dword_2020200+1
+seg000:0000000000002A45                 dd offset unk_420041
+seg000:0000000000002A49                 dd offset unk_43034D
+seg000:0000000000002A4D                 db 16h, 0, 6
+seg000:0000000000002A50 aDnlme          db 'DNLME',0
+seg000:0000000000002A56                 db  46h ; F
+seg000:0000000000002A57                 align 8
+seg000:0000000000002A58                 db  47h ; G
+seg000:0000000000002A59                 align 2
+seg000:0000000000002A5A                 dw 8008h, 4948h, 0A2h
+seg000:0000000000002A60                 db  4Ah ; J
+seg000:0000000000002A61                 align 2
+seg000:0000000000002A62                 dd offset unk_14004C4B
+seg000:0000000000002A66                 dd offset unk_9000800
+seg000:0000000000002A6A                 db    3
+seg000:0000000000002A6B                 dd offset byte_5240023
+seg000:0000000000002A6F                 dd offset dword_C000B
+seg000:0000000000002A73                 dd offset unk_E000D06
+seg000:0000000000002A77                 align 8
+seg000:0000000000002A78                 db  0Fh
+seg000:0000000000002A79                 db 0DEh, 0DDh, 5Dh, 3Fh, 10h, 0, 11h
+seg000:0000000000002A80 unk_2A80        db  13h                 ; DATA XREF: seg000:000000002805FE11↓o
+seg000:0000000000002A81                 db  1Bh
+seg000:0000000000002A82                 dd offset unk_17006F15
+seg000:0000000000002A86                 db 0FEh
+seg000:0000000000002A87                 dd offset unk_2031804
+seg000:0000000000002A8B                 dd offset loc_1A005319
+seg000:0000000000002A8F                 align 10h
+seg000:0000000000002A90                 dq 1D001C0105001Bh
+seg000:0000000000002A98                 db  0Ch
+seg000:0000000000002A99                 dd offset off_1F001E
+seg000:0000000000002A9D                 db  2Bh ; +
+seg000:0000000000002A9E                 dd offset unk_21002000
+seg000:0000000000002AA2                 dd offset word_23574C22
+seg000:0000000000002AA6                 dd offset off_14002600
+seg000:0000000000002AAA off_2AAA        dd offset unk_29280603  ; DATA XREF: seg000:00000000000AF3D1↓o
+seg000:0000000000002AAE                 db  2Ah ; *
+seg000:0000000000002AAF                 db    4
+seg000:0000000000002AB0                 db  2Bh ; +
+seg000:0000000000002AB1                 dd offset unk_C0A2C10
+seg000:0000000000002AB5                 db  2Dh ; -
+seg000:0000000000002AB6                 dd offset unk_3E99999A
+seg000:0000000000002ABA                 dd offset byte_13D0A0B
+seg000:0000000000002ABE                 db 0E9h
+seg000:0000000000002ABF                 align 20h
+seg000:0000000000002AC0                 db  98h
+seg000:0000000000002AC1                 dd offset off_2472010A
+seg000:0000000000002AC5                 dd offset dword_F0D010C
+seg000:0000000000002AC9                 db 11h, 2Eh, 89h, 88h, 8, 3Fh, 10h
+seg000:0000000000002AD0                 db  11h
+seg000:0000000000002AD1                 db 0F7h
+seg000:0000000000002AD2                 dw 4803h, 5401h, 0BE02h
+seg000:0000000000002AD8                 db  7Bh ; {
+seg000:0000000000002AD9                 dd offset unk_2F124166
+seg000:0000000000002ADD                 dd offset unk_11301614
+seg000:0000000000002AE1                 dd offset off_12151111
+seg000:0000000000002AE5                 db 69h, 62h, 24h
+seg000:0000000000002AE8 off_2AE8        dq 1A321931173D7ABDh    ; DATA XREF: seg000:00000000000B8A7C↓o
+seg000:0000000000002AF0                 db  10h
+seg000:0000000000002AF1                 db 63h, 0, 34h, 0BFh, 9Eh, 0FAh, 0Eh
+seg000:0000000000002AF8                 db  13h
+seg000:0000000000002AF9                 db  1Ch
+seg000:0000000000002AFA                 db  33h ; 3
+seg000:0000000000002AFB                 dd offset byte_DAC611D
+seg000:0000000000002AFF                 db    1
+seg000:0000000000002B00 off_2B00        dq 20A66A20341F12FAh    ; DATA XREF: seg000:0000000000D4D562↓o
+seg000:0000000000002B00                                         ; seg000:0000000001696252↓o ...
+seg000:0000000000002B08                 db  54h ; T
+seg000:0000000000002B09                 dd offset off_23352213
+seg000:0000000000002B0D off_2B0D        dd offset unk_833FA7C   ; DATA XREF: seg000:000000000118E90C↓o
+seg000:0000000000002B11                 db  14h
+seg000:0000000000002B12                 db  25h ; %
+seg000:0000000000002B13                 dd offset byte_2692636
+seg000:0000000000002B17                 dd offset off_28134A48
+seg000:0000000000002B1B                 db 2Ah, 37h, 2 dup(44h), 84h
+seg000:0000000000002B20                 db  29h ; )
+seg000:0000000000002B21                 db 20h, 0F1h, 1, 0A6h, 0, 73h, 5Bh
+seg000:0000000000002B28                 db    1
+seg000:0000000000002B29                 dd offset word_2D382BFA
+seg000:0000000000002B2D                 db  39h ; 9
+seg000:0000000000002B2E                 db 0C0h
+seg000:0000000000002B2F                 dd offset loc_6BD2E29+5
+seg000:0000000000002B33                 db  1Eh
+seg000:0000000000002B34                 db  62h ; b
+seg000:0000000000002B35                 db  46h ; F
+seg000:0000000000002B36 off_2B36        dd offset qword_6B5920+960h
+seg000:0000000000002B36                                         ; DATA XREF: seg000:0000000001F703FC↓o
+seg000:0000000000002B3A                 db    0
+seg000:0000000000002B3B                 db    0
+seg000:0000000000002B3C                 db    0
+seg000:0000000000002B3D off_2B3D        dd offset unk_7300000   ; DATA XREF: seg000:000000002CD74C82↓o
+seg000:0000000000002B41                 db  70h ; p
+seg000:0000000000002B42 off_2B42        dd offset unk_700AE01   ; DATA XREF: seg000:000000003EFAD14E↓o
+seg000:0000000000002B46 off_2B46        dd offset unk_3020227   ; DATA XREF: seg000:000000003EFB7F0D↓o
+seg000:0000000000002B4A unk_2B4A        db    3                 ; DATA XREF: seg000:000000002987C071↓o
+seg000:0000000000002B4B                 dd offset byte_7D70307
+seg000:0000000000002B4F                 db    5
+seg000:0000000000002B50                 db    3
+seg000:0000000000002B51                 db    5
+seg000:0000000000002B52                 db 0DBh
+seg000:0000000000002B53                 db 0BCh
+seg000:0000000000002B54                 dd 0BBE7CFF7h
+seg000:0000000000002B58                 db 0E0h
+seg000:0000000000002B59 byte_2B59       db 0E9h, 0DCh, 0F0h, 4Bh, 0D3h, 0CFh, 0EBh
+seg000:0000000000002B59                                         ; DATA XREF: seg000:0000000000BA2059↓o
+seg000:0000000000002B60                 db 0DDh
+seg000:0000000000002B61                 db 0D0h
+seg000:0000000000002B62                 dd offset off_13CBE0E0
+seg000:0000000000002B66                 dw 0CC06h
+seg000:0000000000002B68                 db 0EBh
+seg000:0000000000002B69 ; ---------------------------------------------------------------------------
+seg000:0000000000002B69                 retf
+seg000:0000000000002B6A ; ---------------------------------------------------------------------------
+seg000:0000000000002B6A                 fxch7   st(7)
+seg000:0000000000002B6C                 iret
+seg000:0000000000002B6D ; ---------------------------------------------------------------------------
+seg000:0000000000002B6D                 fcmovnbe st, st(4)
+seg000:0000000000002B6F                 retf
+seg000:0000000000002B6F ; ---------------------------------------------------------------------------
+seg000:0000000000002B70                 db 0DCh
+seg000:0000000000002B71                 db 0E5h
+seg000:0000000000002B72                 dw 0EBDBh, 0FFCDh, 0D0FCh
+seg000:0000000000002B78                 db 0EDh
+seg000:0000000000002B79                 db 0D3h, 0CCh, 0FFh, 0FBh, 0E6h, 0E0h, 0CBh
+seg000:0000000000002B80                 db 0D4h
+seg000:0000000000002B81                 db 0FCh
+seg000:0000000000002B82                 db 0C8h
+seg000:0000000000002B83                 db 0FFh
+seg000:0000000000002B84                 db 0CBh
+seg000:0000000000002B85                 db 0CFh
+seg000:0000000000002B86                 db 0FFh
+seg000:0000000000002B87                 db  3Fh ; ?
+seg000:0000000000002B88                 db 0FFh
+seg000:0000000000002B89                 db 0F1h
+seg000:0000000000002B8A                 db 0E3h
+seg000:0000000000002B8B                 db 0FBh
+seg000:0000000000002B8C                 db 0CCh
+seg000:0000000000002B8D                 db 0C8h, 0E3h, 0C8h
+seg000:0000000000002B90                 db  82h
+seg000:0000000000002B91                 db 0D5h
+seg000:0000000000002B92                 db 0DCh
+seg000:0000000000002B93                 db 0DCh
+seg000:0000000000002B94                 db 0D2h
+seg000:0000000000002B95                 db  0Fh
+seg000:0000000000002B96                 db 0CBh
+seg000:0000000000002B97                 db 0D0h
+seg000:0000000000002B98                 db 0DCh
+seg000:0000000000002B99                 db 0E4h
+seg000:0000000000002B9A                 dw 0CCFEh, 0DDECh, 0CCC8h
+seg000:0000000000002BA0                 db 0FBh
+seg000:0000000000002BA1                 db 0D5h
+seg000:0000000000002BA2                 db 0DCh
+seg000:0000000000002BA3                 db 0D3h
+seg000:0000000000002BA4                 db 0D6h
+seg000:0000000000002BA5                 db 0EDh
+seg000:0000000000002BA6                 db 0C8h
+seg000:0000000000002BA7                 db 0D4h
+seg000:0000000000002BA8                 db 0F0h
+seg000:0000000000002BA9                 db 0E0h
+seg000:0000000000002BAA ; ---------------------------------------------------------------------------
+seg000:0000000000002BAA                 cld
+seg000:0000000000002BAB                 fimul   word ptr [rax-30B3231Ch]
+seg000:0000000000002BB1                 retf
+seg000:0000000000002BB2 ; ---------------------------------------------------------------------------
+seg000:0000000000002BB2                 retf
+seg000:0000000000002BB2 ; ---------------------------------------------------------------------------
+seg000:0000000000002BB3                 db 0DFh
+seg000:0000000000002BB4                 db  83h
+seg000:0000000000002BB5                 db 0DBh
+seg000:0000000000002BB6                 db 0E2h
+seg000:0000000000002BB7                 db 0DBh
+seg000:0000000000002BB8                 dq 303030303CB03CCh
+seg000:0000000000002BC0                 db    3
+seg000:0000000000002BC1                 db 0Bh, 2 dup(3), 0FFh, 55h, 0C9h, 0E1h
+seg000:0000000000002BC8                 db  19h
+seg000:0000000000002BC9                 db  84h
+seg000:0000000000002BCA                 dd offset unk_25051562
+seg000:0000000000002BCE                 db  15h
+seg000:0000000000002BCF                 dd offset unk_25E52505
+seg000:0000000000002BD3                 dd offset unk_57D0515
+seg000:0000000000002BD7 byte_2BD7       db 3Eh                  ; DATA XREF: seg000:000000001D48AD4B↓o
+seg000:0000000000002BD8                 db  1Dh
+seg000:0000000000002BD9                 db 0F0h, 55h, 78h, 45h, 78h, 5, 45h
+seg000:0000000000002BE0                 db  78h ; x
+seg000:0000000000002BE1                 db    5
+seg000:0000000000002BE2 word_2BE2       dw 5D3Eh, 55F0h, 5D78h  ; DATA XREF: seg000:00000000013F4049↓o
+seg000:0000000000002BE8                 dq 5578553E3DB855F0h
+seg000:0000000000002BF0                 db  78h ; x
+seg000:0000000000002BF1                 db  55h ; U
+seg000:0000000000002BF2                 dd offset off_3D785578
+seg000:0000000000002BF6                 dw 3E05h
+seg000:0000000000002BF8                 db  5Dh ; ]
+seg000:0000000000002BF9                 dd offset off_3DF05DF0
+seg000:0000000000002BFD                 db  3Dh ; =
+seg000:0000000000002BFE                 db  3Dh ; =
+seg000:0000000000002BFF                 db 3Eh
+seg000:0000000000002C00 unk_2C00        db  55h ; U             ; DATA XREF: seg000:off_ED14B↓o
+seg000:0000000000002C00                                         ; seg000:000000000097EE9A↓o ...
+seg000:0000000000002C01                 dd offset unk_3E785578
+seg000:0000000000002C05                 db 55h, 78h, 55h
+seg000:0000000000002C08                 db  78h ; x
+seg000:0000000000002C09                 db 3Eh, 55h, 78h, 5Dh, 0F0h, 0BDh, 3Dh
+seg000:0000000000002C10                 db  7Eh ; ~
+seg000:0000000000002C11                 db  95h
+seg000:0000000000002C12                 dw 2 dup(5578h), 5D78h
+seg000:0000000000002C18                 dq 2020D4302F05DF0h
+seg000:0000000000002C20                 db  42h ; B
+seg000:0000000000002C21 unk_2C21        db    3                 ; DATA XREF: seg000:00000000029A0BE5↓o
+seg000:0000000000002C22 ; ---------------------------------------------------------------------------
+seg000:0000000000002C22                 xchg    eax, cs:0FFFFFFFFD5D5312Ah
+seg000:0000000000002C28                 add     eax, 0D7DB05D5h
+seg000:0000000000002C2E                 xchg    eax, cs:dword_9073203
+seg000:0000000000002C34                 iret
+seg000:0000000000002C34 ; ---------------------------------------------------------------------------
+seg000:0000000000002C35                 dd offset byte_53DFDD5
+seg000:0000000000002C39 ; ---------------------------------------------------------------------------
+seg000:0000000000002C39                 cli
+seg000:0000000000002C3A                 rcr     esi, cl
+seg000:0000000000002C3C                 adc     eax, 0CEC8D7D7h
+seg000:0000000000002C41                 add     eax, (offset off_74405C8+7)
+seg000:0000000000002C46                 iret
+seg000:0000000000002C46 ; ---------------------------------------------------------------------------
+seg000:0000000000002C47                 db 8Fh
+seg000:0000000000002C48                 db 0D0h
+seg000:0000000000002C49                 db 0ECh
+seg000:0000000000002C4A                 dw 5D5h, 0D7D5h, 0D502h
+seg000:0000000000002C50                 db    2
+seg000:0000000000002C51                 db  15h
+seg000:0000000000002C52                 db    2
+seg000:0000000000002C53                 dd offset byte_7CCD307
+seg000:0000000000002C57                 dd offset dword_15E505D5+1
+seg000:0000000000002C5B                 db 0D6h, 7, 45h, 0D5h, 0D4h
+seg000:0000000000002C60                 db 0D5h
+seg000:0000000000002C61                 db  89h
+seg000:0000000000002C62                 dd offset off_2529E5D5
+seg000:0000000000002C66                 db 0E9h
+seg000:0000000000002C67                 db  25h ; %
+seg000:0000000000002C68                 db  31h ; 1
+seg000:0000000000002C69                 db  1Dh
+seg000:0000000000002C6A                 dw 151Bh, 58E4h, 223Dh
+seg000:0000000000002C70 off_2C70        dq 2660DCFC0D053922h    ; DATA XREF: seg000:0000000000B65701↓o
+seg000:0000000000002C78                 db    5
+seg000:0000000000002C79                 db    5
+seg000:0000000000002C7A                 db    5
+seg000:0000000000002C7B                 dd offset off_3125E0F0
+seg000:0000000000002C7F                 db 1Dh
+seg000:0000000000002C80                 db  1Bh
+seg000:0000000000002C81                 db  1Dh
+seg000:0000000000002C82                 dd offset off_223D58D8+4
+seg000:0000000000002C86                 dd offset loc_3DF02921+1
+seg000:0000000000002C8A                 db  22h ; "
+seg000:0000000000002C8B                 dd offset word_252931FE
+seg000:0000000000002C8F                 db  31h ; 1
+seg000:0000000000002C90                 db  1Dh
+seg000:0000000000002C91                 db 1Fh, 1Dh, 0DCh, 58h, 3Dh, 25h, 3Dh
+seg000:0000000000002C98                 dq 0F129313E223078CCh
+seg000:0000000000002CA0                 dq 223D5C84315CD011h
+seg000:0000000000002CA8                 db 0E5h
+seg000:0000000000002CA9                 db  3Dh ; =
+seg000:0000000000002CAA                 dd offset unk_31DC1222
+seg000:0000000000002CAE                 dd offset byte_1F3D3D3D
+seg000:0000000000002CB2                 dd offset off_3D3D3136
+seg000:0000000000002CB6                 db  3Dh ; =
+seg000:0000000000002CB7                 db  22h ; "
+seg000:0000000000002CB8                 dq 3136223D3D3D3136h
+seg000:0000000000002CC0                 dq 1D31E536223D3D3Dh
+seg000:0000000000002CC8                 db  1Fh
+seg000:0000000000002CC9                 db  1Dh
+seg000:0000000000002CCA                 db 0DCh
+seg000:0000000000002CCB                 db  58h ; X
+seg000:0000000000002CCC dword_2CCC      dd 0FD22223Dh           ; DATA XREF: seg000:00000000000C782E↓o
+seg000:0000000000002CD0                 dq 5D401DF129313D1Eh
+seg000:0000000000002CD8                 dq 0C83DE5223D58DC1Dh
+seg000:0000000000002CE0                 db  78h ; x
+seg000:0000000000002CE1                 db  2Ch ; ,
+seg000:0000000000002CE2                 dd offset off_3101FE2
+seg000:0000000000002CE6                 db    2
+seg000:0000000000002CE7                 db 0BDh
+seg000:0000000000002CE8                 db  7Eh ; ~
+seg000:0000000000002CE9                 db  3Dh ; =
+seg000:0000000000002CEA                 dw 9FBDh, 0F58Dh, 13h
+seg000:0000000000002CF0                 db    2
+seg000:0000000000002CF1                 db 1, 2 dup(80h), 0A3h, 0Ah, 1Eh, 0Ch
+seg000:0000000000002CF8                 db  18h
+seg000:0000000000002CF9                 dd offset off_E16181B
+seg000:0000000000002CFD                 db  0Bh
+seg000:0000000000002CFE                 db  13h
+seg000:0000000000002CFF off_2CFF        dd offset off_111A1C18  ; DATA XREF: seg000:00000000006782DE↓o
+seg000:0000000000002CFF                                         ; seg000:000000000169D832↓o
+seg000:0000000000002D03                 db  1Ch
+seg000:0000000000002D04 off_2D04        dd offset word_A180C0E  ; DATA XREF: seg000:00000000003EF9FA↓o
+seg000:0000000000002D04                                         ; seg000:0000000001E4E896↓o
+seg000:0000000000002D08                 db  0Bh
+seg000:0000000000002D09                 dd offset off_2A1E0E12
+seg000:0000000000002D0D                 db  1Dh
+seg000:0000000000002D0E                 db  21h ; !
+seg000:0000000000002D0F                 db  23h ; #
+seg000:0000000000002D10                 dq 0B132E0E0D28090Eh
+seg000:0000000000002D18 off_2D18        dq 120C2F180E132C1Dh    ; DATA XREF: seg000:0000000001037DE5↓o
+seg000:0000000000002D18                                         ; seg000:00000000002755EF↓o
+seg000:0000000000002D20                 db  18h
+seg000:0000000000002D21                 db  12h
+seg000:0000000000002D22 off_2D22        dd offset off_101C2721  ; DATA XREF: seg000:0000000000F13B46↓o
+seg000:0000000000002D26 off_2D26        dd offset unk_24221D10  ; DATA XREF: seg000:00000000029A201E↓o
+seg000:0000000000002D2A                 dd offset unk_2F34120E
+seg000:0000000000002D2E                 dd offset qword_33102C30
+seg000:0000000000002D32                 db  13h
+seg000:0000000000002D33                 dd offset byte_F313133
+seg000:0000000000002D37                 dd offset off_20133231
+seg000:0000000000002D3B                 dd offset nullsub_7
+seg000:0000000000002D3F                 db  38h ; 8
+seg000:0000000000002D40                 dq 1C2424101F131A29h
+seg000:0000000000002D48                 db  10h
+seg000:0000000000002D49                 dd offset byte_2C38221D
+seg000:0000000000002D4D                 db  2Dh ; -
+seg000:0000000000002D4E                 dd offset off_3B3A1312
+seg000:0000000000002D52                 dd offset dword_102E3F0C
+seg000:0000000000002D56                 db  1Ah
+seg000:0000000000002D57                 dd offset off_2B292023
+seg000:0000000000002D5B                 db 1Ah, 2Fh, 31h, 44h, 24h
+seg000:0000000000002D60                 db  28h ; (
+seg000:0000000000002D61                 dd offset unk_D0A3925
+seg000:0000000000002D65                 db  20h
+seg000:0000000000002D66                 dd offset byte_251D0F09
+seg000:0000000000002D6A                 dd offset loc_3B282317
+seg000:0000000000002D6E                 dd offset byte_3B100A0B
+seg000:0000000000002D72 off_2D72        dd offset off_F201C10   ; DATA XREF: seg000:off_3EFB1F3E↓o
+seg000:0000000000002D76                 db  0Ah
+seg000:0000000000002D77 off_2D77        dd offset unk_A152325   ; DATA XREF: seg000:0000000000D561AB↓o
+seg000:0000000000002D7B                 db  0Ch
+seg000:0000000000002D7C                 dd offset byte_18251531
+seg000:0000000000002D80                 db  10h
+seg000:0000000000002D81                 db  29h ; )
+seg000:0000000000002D82                 dd offset unk_28292910
+seg000:0000000000002D86                 dd offset byte_27301027
+seg000:0000000000002D8A                 db  10h
+seg000:0000000000002D8B                 db  33h ; 3
+seg000:0000000000002D8C                 dd offset word_24330E26
+seg000:0000000000002D90                 db  39h ; 9
+seg000:0000000000002D91                 db  10h
+seg000:0000000000002D92                 dw 263Dh, 4010h, 2642h
+seg000:0000000000002D98                 db  30h ; 0
+seg000:0000000000002D99                 db    3
+seg000:0000000000002D9A                 dw 4Ch, 0A067h, 55E8h
+seg000:0000000000002DA0                 db  91h
+seg000:0000000000002DA1                 db  48h ; H
+seg000:0000000000002DA2                 db    8
+seg000:0000000000002DA3                 db  95h
+seg000:0000000000002DA4                 db 0E5h
+seg000:0000000000002DA5                 db  2Bh ; +
+seg000:0000000000002DA6                 db  55h ; U
+seg000:0000000000002DA7                 db 0B1h
+seg000:0000000000002DA8                 db  5Fh ; _
+seg000:0000000000002DA9                 dd offset unk_FEA876
+seg000:0000000000002DAD                 db  24h ; $
+seg000:0000000000002DAE                 db 0ACh
+seg000:0000000000002DAF                 dd offset dword_15E08C
+seg000:0000000000002DB3                 db  54h ; T
+seg000:0000000000002DB4                 dd 7B0538E3h
+seg000:0000000000002DB8                 db    4
+seg000:0000000000002DB9                 db 6, 0Dh, 91h, 4Dh, 49h, 9, 3Bh
+seg000:0000000000002DC0                 db  3Dh ; =
+seg000:0000000000002DC1                 db  47h ; G
+seg000:0000000000002DC2                 db  48h ; H
+seg000:0000000000002DC3                 db 0E6h
+seg000:0000000000002DC4                 db 0B4h
+seg000:0000000000002DC5                 dd offset unk_1A12ED97
+seg000:0000000000002DC9                 dd offset byte_1252447D
+seg000:0000000000002DCD                 db  9Bh
+seg000:0000000000002DCE off_2DCE        dd offset byte_1250A201 ; DATA XREF: seg000:000000003EFAF184↓o
+seg000:0000000000002DD2                 dd offset unk_1D3A7494
+seg000:0000000000002DD6                 dw 0ED16h
+seg000:0000000000002DD8                 db 0A2h
+seg000:0000000000002DD9                 db  6Bh ; k
+seg000:0000000000002DDA                 dd offset byte_1B1FFDEF
+seg000:0000000000002DDE                 db  2Dh ; -
+seg000:0000000000002DDF                 db  6Bh ; k
+seg000:0000000000002DE0                 db 0D9h
+seg000:0000000000002DE1                 db 0EBh, 0C0h, 16h, 58h, 49h, 0D3h, 0B1h
+seg000:0000000000002DE8                 db  24h ; $
+seg000:0000000000002DE9                 db    5
+seg000:0000000000002DEA                 dw 9F2h, 5390h, 0BDF5h
+seg000:0000000000002DF0                 db  7Ah ; z
+seg000:0000000000002DF1                 db 0EEh
+seg000:0000000000002DF2                 dd offset byte_2924EF6B
+seg000:0000000000002DF6                 dd offset aOvchunk      ; "ovChunk"
+seg000:0000000000002DFA                 dw 6EBDh, 0BD4Dh, 8D9Fh
+seg000:0000000000002E00                 db 0B4h
+seg000:0000000000002E01 unk_2E01        db  13h                 ; DATA XREF: seg000:0000000000C13C72↓o
+seg000:0000000000002E02                 dd offset off_F4E0100
+seg000:0000000000002E06                 dw 6EC0h
+seg000:0000000000002E08                 db  35h ; 5
+seg000:0000000000002E09 byte_2E09       db 0F5h, 18h, 6Fh, 7Eh, 0FCh, 0E7h, 86h
+seg000:0000000000002E09                                         ; DATA XREF: seg000:0000000000C0D717↓o
+seg000:0000000000002E10                 db 0BFh
+seg000:0000000000002E11                 db 0D5h, 51h, 48h, 0AEh, 0D8h, 0E2h, 0DAh
+seg000:0000000000002E18                 db  80h
+seg000:0000000000002E19 unk_2E19        db  20h                 ; DATA XREF: seg000:off_15C513↓o
+seg000:0000000000002E1A                 db  41h ; A
+seg000:0000000000002E1B                 dd offset loc_7586E67
+seg000:0000000000002E1F                 db  46h ; F
+seg000:0000000000002E20                 db  0Ah
+seg000:0000000000002E21                 db  99h
+seg000:0000000000002E22                 dw 1CC6h, 0BEABh, 0B4EDh
+seg000:0000000000002E28                 db  80h
+seg000:0000000000002E29                 db 6Ch, 14h, 0B2h, 0E9h, 0C5h, 2Bh, 97h
+seg000:0000000000002E30                 db  3Dh ; =
+seg000:0000000000002E31                 db  33h ; 3
+seg000:0000000000002E32                 db  57h ; W
+seg000:0000000000002E33                 dd offset unk_16BBA630
+seg000:0000000000002E37                 db  41h ; A
+seg000:0000000000002E38 off_2E38        dq 0CB95A9CC2EADC400h   ; DATA XREF: seg000:0000000001BE79B3↓o
+seg000:0000000000002E40                 db  6Eh ; n
+seg000:0000000000002E41                 db 0E7h, 0A9h, 0AEh, 0E2h, 6Ah, 9Ah, 5Dh
+seg000:0000000000002E48                 db  1Fh
+seg000:0000000000002E49                 db 0A0h
+seg000:0000000000002E4A                 db 0B2h
+seg000:0000000000002E4B                 db  4Bh ; K
+seg000:0000000000002E4C                 dd offset unk_44B5241
+seg000:0000000000002E50                 db  0Ah
+seg000:0000000000002E51                 dd offset byte_68C0000
+seg000:0000000000002E55                 align 2
+seg000:0000000000002E56                 db    4
+seg000:0000000000002E57                 db  92h
+seg000:0000000000002E58                 dq 100010000900488h
+seg000:0000000000002E60 off_2E60        dq 2CE0300000200h       ; DATA XREF: seg000:0000000039F6B7CA↓o
+seg000:0000000000002E68                 db    3
+seg000:0000000000002E69                 align 2
+seg000:0000000000002E6A                 dd offset dword_50004
+seg000:0000000000002E6E                 dd offset aRredes8descf ; "rredes8DescF"
+seg000:0000000000002E72                 db    8
+seg000:0000000000002E73                 align 4
+seg000:0000000000002E74                 dd offset byte_A0009
+seg000:0000000000002E78                 dq 0E000D000C000Bh
+seg000:0000000000002E80                 db  0Fh
+seg000:0000000000002E81                 align 2
+seg000:0000000000002E82                 db  10h
+seg000:0000000000002E83                 align 4
+seg000:0000000000002E84                 dd offset off_120011
+seg000:0000000000002E88                 dq 16001500140013h
+seg000:0000000000002E90                 dq 1B001A1900180017h
+seg000:0000000000002E98                 dq 1E001D0019001C00h
+seg000:0000000000002EA0                 dq 2200210020001F00h
+seg000:0000000000002EA8                 dq 2300220021002000h
+seg000:0000000000002EB0                 dq 2700260025002400h
+seg000:0000000000002EB8 off_2EB8        dq 2B002A0029002800h    ; DATA XREF: seg000:000000003EFDDEFD↓o
+seg000:0000000000002EC0                 dq 2F002E002D002C00h
+seg000:0000000000002EC8                 dq 3300320031003000h
+seg000:0000000000002ED0                 dq 3700360035003400h
+seg000:0000000000002ED8                 dq 3B003A0039003800h
+seg000:0000000000002EE0                 dq 39003E003D003C00h
+seg000:0000000000002EE8                 db    0
+seg000:0000000000002EE9                 dd offset off_40003F
+seg000:0000000000002EED                 dd offset off_410025
+seg000:0000000000002EF1                 db  40h ; @
+seg000:0000000000002EF2                 dw 4200h, 4300h, 4400h
+seg000:0000000000002EF8                 db  2Bh ; +
+seg000:0000000000002EF9                 db 3Fh, 0, 41h, 45h, 0, 47h, 0
+seg000:0000000000002F00 off_2F00        dq 4D004C00490048h      ; DATA XREF: seg000:0000000001C054CA↓o
+seg000:0000000000002F08                 dq 510050004F004Eh
+seg000:0000000000002F10 off_2F10        dq 57005400530052h      ; DATA XREF: seg000:0000000001A37C09↓o
+seg000:0000000000002F18                 dq 5C005B00590058h
+seg000:0000000000002F20                 db  5Dh ; ]
+seg000:0000000000002F21                 align 2
+seg000:0000000000002F22                 db  5Fh ; _
+seg000:0000000000002F23                 align 4
+seg000:0000000000002F24                 dd offset loc_610060
+seg000:0000000000002F28                 db  63h ; c
+seg000:0000000000002F29                 align 2
+seg000:0000000000002F2A                 dd offset unk_650064
+seg000:0000000000002F2E                 db  45h ; E
+seg000:0000000000002F2F                 align 10h
+seg000:0000000000002F30                 db  46h ; F
+seg000:0000000000002F31                 db  4Ah ; J
+seg000:0000000000002F32                 dw 4B00h, 4C00h, 900h
+seg000:0000000000002F38 aUvz            db 'UVZ^',0
+seg000:0000000000002F3D                 db  5Fh ; _
+seg000:0000000000002F3E                 dw 5D00h
+seg000:0000000000002F40                 dq 6662006300625E00h
+seg000:0000000000002F48                 db    0
+seg000:0000000000002F49                 db  67h ; g
+seg000:0000000000002F4A                 dw 6800h, 6900h, 6A00h
+seg000:0000000000002F50                 db    0
+seg000:0000000000002F51                 db  6Bh ; k
+seg000:0000000000002F52                 dw 6C00h, 6D00h, 6B00h
+seg000:0000000000002F58                 db    0
+seg000:0000000000002F59                 db  6Eh ; n
+seg000:0000000000002F5A                 dw 6D00h, 6B00h, 6900h
+seg000:0000000000002F60                 db    0
+seg000:0000000000002F61                 db  6Fh ; o
+seg000:0000000000002F62                 dw 7000h, 7100h, 6B00h
+seg000:0000000000002F68                 db    0
+seg000:0000000000002F69                 db  72h ; r
+seg000:0000000000002F6A                 dw 6900h, 7300h, 7400h
+seg000:0000000000002F70                 db    0
+seg000:0000000000002F71                 dd offset unk_750069
+seg000:0000000000002F75                 db  76h ; v
+seg000:0000000000002F76                 dw 6E00h
+seg000:0000000000002F78                 db    0
+seg000:0000000000002F79                 db  6Bh ; k
+seg000:0000000000002F7A                 dd offset unk_787700
+seg000:0000000000002F7E                 dd offset off_7A0079
+seg000:0000000000002F82                 dd offset byte_7C007B
+seg000:0000000000002F86                 dw 7Dh
+seg000:0000000000002F88                 db  7Eh ; ~
+seg000:0000000000002F89                 db  7Fh ; 
+seg000:0000000000002F8A                 dw 8000h, 8281h, 6D82h
+seg000:0000000000002F90                 db  62h ; b
+seg000:0000000000002F91                 db  6Eh ; n
+seg000:0000000000002F92                 dw 6262h, 8369h, 8400h
+seg000:0000000000002F98                 db    0
+seg000:0000000000002F99                 db  85h
+seg000:0000000000002F9A                 db    0
+seg000:0000000000002F9B                 db  85h
+seg000:0000000000002F9C                 db    0
+seg000:0000000000002F9D                 db  86h
+seg000:0000000000002F9E                 db    0
+seg000:0000000000002F9F                 db  87h
+seg000:0000000000002FA0                 db    0
+seg000:0000000000002FA1                 db  88h
+seg000:0000000000002FA2                 db    0
+seg000:0000000000002FA3                 db  89h
+seg000:0000000000002FA4                 db  8Ah
+seg000:0000000000002FA5                 db  8Bh
+seg000:0000000000002FA6                 db    0
+seg000:0000000000002FA7                 db  8Ch
+seg000:0000000000002FA8                 db    0
+seg000:0000000000002FA9                 db  8Dh
+seg000:0000000000002FAA                 db  8Eh
+seg000:0000000000002FAB                 db  8Fh
+seg000:0000000000002FAC                 db  90h
+seg000:0000000000002FAD                 db    0
+seg000:0000000000002FAE                 db  91h
+seg000:0000000000002FAF                 db  92h
+seg000:0000000000002FB0                 db    0
+seg000:0000000000002FB1                 db  93h
+seg000:0000000000002FB2                 dw 9400h, 9200h, 9300h
+seg000:0000000000002FB8                 db    0
+seg000:0000000000002FB9                 dd offset off_950094
+seg000:0000000000002FBD                 db  96h
+seg000:0000000000002FBE                 dw 9897h
+seg000:0000000000002FC0                 dq 99B759A00996E62h
+seg000:0000000000002FC8                 db  9Ch
+seg000:0000000000002FC9                 dd offset unk_9F9E9D
+seg000:0000000000002FCD                 db 0A0h
+seg000:0000000000002FCE                 db 0A1h
+seg000:0000000000002FCF                 align 10h
+seg000:0000000000002FD0                 db    0
+seg000:0000000000002FD1                 align 4
+seg000:0000000000002FD4                 dd offset off_3E32681E
+seg000:0000000000002FD8                 db    0
+seg000:0000000000002FD9                 align 4
+seg000:0000000000002FDC                 db 0D7h
+seg000:0000000000002FDD                 db  29h ; )
+seg000:0000000000002FDE                 db  5Dh ; ]
+seg000:0000000000002FDF                 db  78h ; x
+seg000:0000000000002FE0                 db 0FBh
+seg000:0000000000002FE1                 db  61h ; a
+seg000:0000000000002FE2                 db  7Fh ; 
+seg000:0000000000002FE3                 db  7Fh ; 
+seg000:0000000000002FE4                 db 0FEh
+seg000:0000000000002FE5                 db  7Fh ; 
+seg000:0000000000002FE6                 db  7Fh ; 
+seg000:0000000000002FE7                 db  77h ; w
+seg000:0000000000002FE8                 db 0FEh
+seg000:0000000000002FE9                 db  7Fh ; 
+seg000:0000000000002FEA                 db  7Fh ; 
+seg000:0000000000002FEB                 db  71h ; q
+seg000:0000000000002FEC                 dd 6F6070F9h
+seg000:0000000000002FF0 unk_2FF0        db 0F6h                 ; DATA XREF: seg000:0000000025812601↓o
+seg000:0000000000002FF1                 db  72h ; r
+seg000:0000000000002FF2                 db 0A9h
+seg000:0000000000002FF3                 db 88h, 0FAh, 61h, 8Eh, 7Ch
+seg000:0000000000002FF8                 db 0D1h
+seg000:0000000000002FF9                 dd offset word_33AFA7CA
+seg000:0000000000002FFD                 db  24h ; $
+seg000:0000000000002FFE                 db  63h ; c
+seg000:0000000000002FFF                 db  59h ; Y
+seg000:0000000000003000 off_3000        dq 86D87CDA3D453B42h    ; DATA XREF: seg000:0000000000EDC03C↓o
+seg000:0000000000003000                                         ; seg000:000000000153E154↓o ...
+seg000:0000000000003008                 db  84h
+seg000:0000000000003009 byte_3009       db 0D6h, 72h, 23h, 5Dh, 55h, 0Ch, 7Bh
+seg000:0000000000003009                                         ; DATA XREF: seg000:0000000000F12F8A↓o
+seg000:0000000000003010                 db  6Eh ; n
+seg000:0000000000003011 byte_3011       db 6Eh, 2, 77h, 7Eh, 6Fh, 2, 6Dh
+seg000:0000000000003011                                         ; DATA XREF: seg000:00000000337B877A↓o
+seg000:0000000000003011                                         ; seg000:000000003E6F4DCB↓o
+seg000:0000000000003018                 db  45h ; E
+seg000:0000000000003019 byte_3019       db 3Ch, 4Dh, 32h, 0C8h, 0B2h, 0C2h, 0BDh
+seg000:0000000000003019                                         ; DATA XREF: seg000:00000000015EF635↓o
+seg000:0000000000003019                                         ; seg000:0000000001C68636↓o
+seg000:0000000000003020 ; ---------------------------------------------------------------------------
+seg000:0000000000003020                 iret
+seg000:0000000000003020 ; ---------------------------------------------------------------------------
+seg000:0000000000003021                 db 0B3h
+seg000:0000000000003022                 db 0C0h
+seg000:0000000000003023 off_3023        dd offset unk_364A43B6  ; DATA XREF: seg000:00000000342C0591↓o
+seg000:0000000000003027                 db  3Ch ; <
+seg000:0000000000003028                 db  3Eh ; >
+seg000:0000000000003029 byte_3029       db 51h, 29h, 4Eh, 51h, 0C5h, 0ABh, 2Ah
+seg000:0000000000003029                                         ; DATA XREF: seg000:00000000238ED23A↓o
+seg000:0000000000003030                 db 0A7h
+seg000:0000000000003031 byte_3031       db 23h, 5Bh, 0C5h, 0BAh, 2Fh, 53h, 0C2h
+seg000:0000000000003031                                         ; DATA XREF: seg000:000000003CA76CB1↓o
+seg000:0000000000003038                 db  2Ch ; ,
+seg000:0000000000003039                 db 9Fh, 29h, 0A0h, 53h, 2Fh, 0AAh, 0CDh
+seg000:0000000000003040                 db 0BBh
+seg000:0000000000003041                 db  3Dh ; =
+seg000:0000000000003042                 db 0C0h
+seg000:0000000000003043                 db 0C0h
+seg000:0000000000003044                 db  76h ; v
+seg000:0000000000003045                 dd offset unk_2B089DA0
+seg000:0000000000003049                 db 82h, 86h, 1Fh, 0E5h, 94h, 8Bh, 0C8h
+seg000:0000000000003050                 db  7Ch ; |
+seg000:0000000000003051                 db  22h ; "
+seg000:0000000000003052                 dd offset unk_1BCE8528
+seg000:0000000000003056                 db  83h
+seg000:0000000000003057                 db  83h
+seg000:0000000000003058                 db  78h ; x
+seg000:0000000000003059                 db  78h ; x
+seg000:000000000000305A                 dw 0D825h, 67FBh, 6F82h
+seg000:0000000000003060 unk_3060        db 0FDh                 ; DATA XREF: seg000:0000000001E860E9↓o
+seg000:0000000000003061                 db  86h
+seg000:0000000000003062                 db  7Eh ; ~
+seg000:0000000000003063                 db  6Fh ; o
+seg000:0000000000003064                 db  5Eh ; ^
+seg000:0000000000003065                 db  25h ; %
+seg000:0000000000003066                 db  84h
+seg000:0000000000003067                 db  2Bh ; +
+seg000:0000000000003068                 db 0F4h
+seg000:0000000000003069                 db  4Ch ; L
+seg000:000000000000306A                 dw 7F7Fh, 74F9h, 5C7Fh
+seg000:0000000000003070                 db 0DCh
+seg000:0000000000003071                 db 28h, 2 dup(7Fh), 0E7h, 69h, 5Fh, 0BEh
+seg000:0000000000003078                 db 0DEh
+seg000:0000000000003079                 db  2Ah ; *
+seg000:000000000000307A                 dd offset unk_2EE18080
+seg000:000000000000307E                 db  80h
+seg000:000000000000307F                 db 80h
+seg000:0000000000003080                 db 0DDh
+seg000:0000000000003081                 db 2Ah, 88h, 8Ch, 48h, 7Eh, 0Ch, 81h
+seg000:0000000000003088                 db 0A9h
+seg000:0000000000003089                 db 80h, 7, 82h, 0FEh, 7Fh, 79h, 7Fh
+seg000:0000000000003090                 db 0FCh
+seg000:0000000000003091                 db 97h, 80h, 8Ch, 0F4h, 0AFh, 76h, 72h
+seg000:0000000000003098                 db 0DEh
+seg000:0000000000003099 unk_3099        db  2Ah ; *             ; DATA XREF: seg000:00000000001833D9↓o
+seg000:000000000000309A                 dd offset off_24D87F7F
+seg000:000000000000309E                 db  7Fh ; 
+seg000:000000000000309F                 db 7Fh
+seg000:00000000000030A0                 db 0EDh
+seg000:00000000000030A1                 db 0BFh, 2 dup(7Fh), 0F6h, 0AEh, 2 dup(7Fh)
+seg000:00000000000030A8                 db 0D3h
+seg000:00000000000030A9                 db  1Fh
+seg000:00000000000030AA                 db  7Fh ; 
+seg000:00000000000030AB                 db  7Fh ; 
+seg000:00000000000030AC                 db 0EEh
+seg000:00000000000030AD                 db 0BDh
+seg000:00000000000030AE                 db  7Eh ; ~
+seg000:00000000000030AF                 db  7Eh ; ~
+seg000:00000000000030B0                 db 0F6h
+seg000:00000000000030B1                 db 0ACh
+seg000:00000000000030B2                 dd offset unk_1DD17E7E
+seg000:00000000000030B6                 db  7Fh ; 
+seg000:00000000000030B7                 db  7Fh ; 
+seg000:00000000000030B8                 db 0F0h
+seg000:00000000000030B9                 db 0BAh
+seg000:00000000000030BA                 dw 7F7Eh, 0AAF7h, 7F7Fh
+seg000:00000000000030C0                 db 0DAh
+seg000:00000000000030C1                 db  26h ; &
+seg000:00000000000030C2                 db  7Fh ; 
+seg000:00000000000030C3                 db  7Fh ; 
+seg000:00000000000030C4                 db 0EEh
+seg000:00000000000030C5                 db 0BDh
+seg000:00000000000030C6                 db  78h ; x
+seg000:00000000000030C7                 db  75h ; u
+seg000:00000000000030C8                 db 0F6h
+seg000:00000000000030C9                 db 0ACh
+seg000:00000000000030CA                 dd offset unk_1DD0787A
+seg000:00000000000030CE                 db  7Fh ; 
+seg000:00000000000030CF                 db  7Fh ; 
+seg000:00000000000030D0                 db 0F4h
+seg000:00000000000030D1                 db 0B1h
+seg000:00000000000030D2                 db  7Fh ; 
+seg000:00000000000030D3                 db  7Fh ; 
+seg000:00000000000030D4                 db  7Fh ; 
+seg000:00000000000030D5                 db  7Fh ; 
+seg000:00000000000030D6                 db    6
+seg000:00000000000030D7                 db 0A8h
+seg000:00000000000030D8                 db 0F3h
+seg000:00000000000030D9                 db 0B4h, 0A7h, 0F2h, 0B5h, 0D6h, 22h, 7Fh
+seg000:00000000000030E0                 db  7Fh ; 
+seg000:00000000000030E1                 db 0F5h
+seg000:00000000000030E2                 db 0AFh
+seg000:00000000000030E3                 db  7Dh ; }
+seg000:00000000000030E4                 db  80h
+seg000:00000000000030E5 off_30E5        dd offset unk_2BDBA806  ; DATA XREF: seg000:00000000000A815F↓o
+seg000:00000000000030E9 byte_30E9       db 94h, 71h, 0F9h, 5Ah, 2 dup(7Fh), 0F9h
+seg000:00000000000030E9                                         ; DATA XREF: seg000:0000000000D56231↓o
+seg000:00000000000030F0                 db  7Fh ; 
+seg000:00000000000030F1                 db  7Fh ; 
+seg000:00000000000030F2                 dw 0ED5Bh, 7F7Fh, 0DD3Fh
+seg000:00000000000030F8                 db  70h ; p
+seg000:00000000000030F9                 db  5Ch ; \
+seg000:00000000000030FA                 dw 0ED31h, 9D94h, 0E94Ah
+seg000:0000000000003100 ; ---------------------------------------------------------------------------
+seg000:0000000000003100
+seg000:0000000000003100 loc_3100:                               ; DATA XREF: seg000:0000000000EC1432↓o
+seg000:0000000000003100                                         ; seg000:0000000002202496↓o ...
+seg000:0000000000003100                 xchg    dh, [rdi+39h]
+seg000:0000000000003103                 db      3Eh
+seg000:0000000000003103                 cmp     [rbp+41h], eax
+seg000:0000000000003107
+seg000:0000000000003107 loc_3107:                               ; DATA XREF: seg000:0000000000035E95↓o
+seg000:0000000000003107                                         ; seg000:0000000001CD3BCF↓o
+seg000:0000000000003107                 ficom   dword ptr [rbx-2D86712Ch]
+seg000:000000000000310D                 mov     [rdi], ebx
+seg000:000000000000310F
+seg000:000000000000310F loc_310F:                               ; DATA XREF: seg000:00000000013927AE↓o
+seg000:000000000000310F                 cmp     eax, 0CD304D47h
+seg000:0000000000003114                 movsd
+seg000:0000000000003115                 retn
+seg000:0000000000003115 ; ---------------------------------------------------------------------------
+seg000:0000000000003116                 db 0BFh
+seg000:0000000000003117                 db 0BEh
+seg000:0000000000003118                 db 0B6h
+seg000:0000000000003119                 db 0D3h
+seg000:000000000000311A                 dd offset unk_354845AE
+seg000:000000000000311E                 db  3Ch ; <
+seg000:000000000000311F                 db 3Bh
+seg000:0000000000003120                 db  4Eh ; N
+seg000:0000000000003121                 db  30h ; 0
+seg000:0000000000003122 word_3122       dw 4949h, 0B0D0h, 9F3Dh ; DATA XREF: seg000:0000000001EC8184↓o
+seg000:0000000000003128                 db  20h
+seg000:0000000000003129                 db  5Eh ; ^
+seg000:000000000000312A                 dd offset off_258526C7
+seg000:000000000000312E                 dw 7F8Ch
+seg000:0000000000003130                 db  99h
+seg000:0000000000003131 byte_3131       db 0A0h, 7, 2Bh, 82h, 85h, 1Fh, 0E4h
+seg000:0000000000003131                                         ; DATA XREF: seg000:0000000024B8DE7C↓o
+seg000:0000000000003131                                         ; seg000:000000002717B04D↓o ...
+seg000:0000000000003138                 db  97h
+seg000:0000000000003139                 dd offset word_237FC78E
+seg000:000000000000313D                 db 26h, 82h, 0FAh
+seg000:0000000000003140                 db  5Eh ; ^
+seg000:0000000000003141                 db 81h, 86h, 80h, 7Bh, 1, 93h, 0FBh
+seg000:0000000000003148                 db  66h ; f
+seg000:0000000000003149 byte_3149       db 82h, 70h, 0FDh, 85h, 7Eh, 70h, 5Bh
+seg000:0000000000003149                                         ; DATA XREF: seg000:000000000B1C8EB1↓o
+seg000:0000000000003150                 db  25h ; %
+seg000:0000000000003151                 db  89h
+seg000:0000000000003152                 db  2Dh ; -
+seg000:0000000000003153 byte_3153       db 0FEh, 74h, 81h, 7Fh, 0F6h
+seg000:0000000000003153                                         ; DATA XREF: seg000:0000000032C5FBAA↓o
+seg000:0000000000003158                 db  75h ; u
+seg000:0000000000003159                 db  7Dh ; }
+seg000:000000000000315A                 dw 0FE52h, 7F73h, 0E97Fh
+seg000:0000000000003160                 db  6Bh ; k
+seg000:0000000000003161                 db  5Eh ; ^
+seg000:0000000000003162 word_3162       dw 0FEBAh, 7F74h, 0FD7Fh
+seg000:0000000000003162                                         ; DATA XREF: seg000:00000000028649F1↓o
+seg000:0000000000003168                 db  6Ch ; l
+seg000:0000000000003169 byte_3169       db 81h, 80h, 0F9h, 0A5h, 7Ch, 7Bh, 0F9h
+seg000:0000000000003169                                         ; DATA XREF: seg000:0000000001F6E3DA↓o
+seg000:0000000000003170                 db 0A5h
+seg000:0000000000003171                 db 7Fh, 7Ch, 0F8h, 56h, 2 dup(7Fh), 0FEh
+seg000:0000000000003178                 db  72h ; r
+seg000:0000000000003179                 db  7Fh ; 
+seg000:000000000000317A                 dw 0FE7Fh, 8588h, 68FCh
+seg000:0000000000003180                 db  87h
+seg000:0000000000003181                 db 0FEh
+seg000:0000000000003182                 db  71h ; q
+seg000:0000000000003183 unk_3183        db  8Ch                 ; DATA XREF: seg000:000000003EF96AAE↓o
+seg000:0000000000003184                 db  81h
+seg000:0000000000003185                 db  7Eh ; ~
+seg000:0000000000003186                 db 0FEh
+seg000:0000000000003187                 db  88h
+seg000:0000000000003188                 db  80h
+seg000:0000000000003189                 db  7Eh ; ~
+seg000:000000000000318A                 db 0FEh
+seg000:000000000000318B                 db  70h ; p
+seg000:000000000000318C unk_318C        db    1                 ; DATA XREF: seg000:000000000171DDA2↓o
+seg000:000000000000318D                 db  91h
+seg000:000000000000318E                 db 0FEh
+seg000:000000000000318F                 db  8Bh
+seg000:0000000000003190                 db  92h
+seg000:0000000000003191                 db 0FEh
+seg000:0000000000003192                 db  86h
+seg000:0000000000003193                 db  93h
+seg000:0000000000003194                 db  7Bh ; {
+seg000:0000000000003195                 db  80h
+seg000:0000000000003196                 db    1
+seg000:0000000000003197                 db  94h
+seg000:0000000000003198                 db 0DBh
+seg000:0000000000003199 ; ---------------------------------------------------------------------------
+seg000:0000000000003199                 sub     edx, [rbp+5A5BF971h]
+seg000:000000000000319F                 in      al, dx
+seg000:00000000000031A0                 cmp     eax, offset unk_2F5E6EDB
+seg000:00000000000031A5                 in      al, dx
+seg000:00000000000031A6                 mov     [rdx-778318B2h], ebp
+seg000:00000000000031AC                 db      36h
+seg000:00000000000031AC                 cmp     eax, 0CC304C48h
+seg000:00000000000031B2                 movsb
+seg000:00000000000031B3                 retn
+seg000:00000000000031B3 ; ---------------------------------------------------------------------------
+seg000:00000000000031B4                 db 0C0h
+seg000:00000000000031B5                 db  2Ch ; ,
+seg000:00000000000031B6                 dw 8582h
+seg000:00000000000031B8                 db  1Fh
+seg000:00000000000031B9 off_31B9        dd offset byte_2D8A265A ; DATA XREF: seg000:00000000001E8C8A↓o
+seg000:00000000000031BD                 align 2
+seg000:00000000000031BE                 dw 781Fh
+seg000:00000000000031C0                 db 0A1h
+seg000:00000000000031C1                 db 0BAh, 0Eh, 7Eh, 0FAh, 7Fh, 5Dh, 7Fh
+seg000:00000000000031C8                 db 0F9h
+seg000:00000000000031C9                 db 83h, 0A4h, 88h, 0FEh, 80h, 82h, 8Ah
+seg000:00000000000031D0                 dq 1F8ED0733942443Fh
+seg000:00000000000031D8 off_31D8        dq 4839443939483549h    ; DATA XREF: seg000:000000003EFA2BDE↓o
+seg000:00000000000031E0 unk_31E0        db  40h ; @             ; DATA XREF: seg000:000000002B4896F1↓o
+seg000:00000000000031E1                 db 48h, 2Bh, 50h, 0B5h, 2Eh, 4Eh, 0C1h
+seg000:00000000000031E8 unk_31E8        db  72h ; r             ; DATA XREF: seg000:000000000F133143↓o
+seg000:00000000000031E9                 db  9Dh
+seg000:00000000000031EA                 dd offset unk_2C810BA8
+seg000:00000000000031EE                 dw 821Eh
+seg000:00000000000031F0                 db 0FAh
+seg000:00000000000031F1                 db 5Dh, 81h, 86h, 0FCh, 6Ch, 81h, 70h
+seg000:00000000000031F8                 db 0FDh
+seg000:00000000000031F9                 db  8Bh
+seg000:00000000000031FA                 db  7Eh ; ~
+seg000:00000000000031FB                 db  70h ; p
+seg000:00000000000031FC                 db  64h ; d
+seg000:00000000000031FD                 db  25h ; %
+seg000:00000000000031FE                 db  7Ch ; |
+seg000:00000000000031FF                 db  29h ; )
+seg000:0000000000003200 unk_3200        db 0FEh                 ; DATA XREF: seg000:0000000000198E2E↓o
+seg000:0000000000003200                                         ; seg000:0000000000F3E0AE↓o ...
+seg000:0000000000003201                 db  78h ; x
+seg000:0000000000003202 word_3202       dw 7F7Fh, 70F6h, 5480h  ; DATA XREF: seg000:000000000297B27D↓o
+seg000:0000000000003202                                         ; seg000:00000000018FD826↓o ...
+seg000:0000000000003208                 db 0EFh
+seg000:0000000000003209                 db 6Eh, 5Ah, 0AEh, 0FEh, 73h, 81h, 80h
+seg000:0000000000003210                 db 0FEh
+seg000:0000000000003211                 db  87h
+seg000:0000000000003212                 db  7Eh ; ~
+seg000:0000000000003213                 db  7Fh ; 
+seg000:0000000000003214                 dd 7F7E85FEh
+seg000:0000000000003218                 db  7Eh ; ~
+seg000:0000000000003219                 db  7Fh ; 
+seg000:000000000000321A                 dw 9201h, 75F9h, 5D80h
+seg000:0000000000003220                 db 0EAh
+seg000:0000000000003221                 db  6Ch ; l
+seg000:0000000000003222 word_3222       dw 0B95Eh, 5A32h, 3E3Ah ; DATA XREF: seg000:0000000002982CA2↓o
+seg000:0000000000003228                 db 0FEh
+seg000:0000000000003229 byte_3229       db 8Ch, 2 dup(7Eh), 0FEh, 88h, 7Eh, 7Fh
+seg000:0000000000003229                                         ; DATA XREF: seg000:00000000006782D2↓o
+seg000:0000000000003230                 db  7Eh ; ~
+seg000:0000000000003231                 dd offset off_94017F
+seg000:0000000000003235                 align 2
+seg000:0000000000003236                 push    rbx
+seg000:0000000000003237
+seg000:0000000000003237 locret_3237:                            ; DATA XREF: seg000:00000000070A0786↓o
+seg000:0000000000003237                 iretq
+seg000:0000000000003239 ; ---------------------------------------------------------------------------
+seg000:0000000000003239                 jmp     rax
+seg000:000000000000323B ; ---------------------------------------------------------------------------
+seg000:000000000000323B                 enter   0FFFFFFFFFFFFE8D0h, 0C8h
+seg000:000000000000323F                 enter   0FFFFFFFFFFFFD7FDh, 0DBh
+seg000:0000000000003243                 xlat
+seg000:0000000000003244                 iret
+seg000:0000000000003245 ; ---------------------------------------------------------------------------
+seg000:0000000000003245                 shr     al, 1
+seg000:0000000000003247                 or      eax, 0D580D0C8h
+seg000:000000000000324D                 xlat
+seg000:000000000000324E                 iret
+seg000:000000000000324E ; ---------------------------------------------------------------------------
+seg000:000000000000324F                 db 0C8h
+seg000:0000000000003250                 db 0F7h
+seg000:0000000000003251                 db 0FCh
+seg000:0000000000003252                 dw 37FCh, 0C83Fh, 3540h
+seg000:0000000000003258                 db  0Dh
+seg000:0000000000003259                 db  3Dh ; =
+seg000:000000000000325A                 db  35h ; 5
+seg000:000000000000325B                 db  0Dh
+seg000:000000000000325C                 db  0Dh
+seg000:000000000000325D                 db 2 dup(0Dh), 3Dh
+seg000:0000000000003260                 dq 7075588250F1597h
+seg000:0000000000003268                 dq 0FD352D1F2D151D0Dh
+seg000:0000000000003270                 db    5
+seg000:0000000000003271 ; ---------------------------------------------------------------------------
+seg000:0000000000003271                 cmp     eax, 7DE058F0h
+seg000:0000000000003276                 enter   3FBCh, 0BDh
+seg000:000000000000327A                 iret
+seg000:000000000000327A ; ---------------------------------------------------------------------------
+seg000:000000000000327B                 db  0Bh
+seg000:000000000000327C                 dd offset off_703030F
+seg000:0000000000003280 ; ---------------------------------------------------------------------------
+seg000:0000000000003280                 add     [rsi], eax
+seg000:0000000000003282                 add     [rsi], eax
+seg000:0000000000003284                 retf
+seg000:0000000000003284 ; ---------------------------------------------------------------------------
+seg000:0000000000003285                 db  4Fh ; O
+seg000:0000000000003286                 db  0Fh
+seg000:0000000000003287 ; ---------------------------------------------------------------------------
+seg000:0000000000003287                 iret
+seg000:0000000000003287 ; ---------------------------------------------------------------------------
+seg000:0000000000003288                 db    2
+seg000:0000000000003289 ; ---------------------------------------------------------------------------
+seg000:0000000000003289                 iret
+seg000:0000000000003289 ; ---------------------------------------------------------------------------
+seg000:000000000000328A off_328A        dd offset unk_F218080   ; DATA XREF: seg000:0000000028E83AC2↓o
+seg000:000000000000328E                 db  22h ; "
+seg000:000000000000328F                 db  21h ; !
+seg000:0000000000003290                 dq 2A1E1F2020212121h
+seg000:0000000000003298                 db  18h
+seg000:0000000000003299                 db  19h
+seg000:000000000000329A off_329A        dd offset unk_1B0F1A2A  ; DATA XREF: seg000:0000000001121AF8↓o
+seg000:000000000000329A                                         ; seg000:000000003EFB3F7E↓o
+seg000:000000000000329E                 db  1Ch
+seg000:000000000000329F                 db  1Dh
+seg000:00000000000032A0                 dq 362A0F2A2A2A2A1Dh
+seg000:00000000000032A8                 dq 302525080F36h
+seg000:00000000000032B0                 dq 2F000E08602C29h
+seg000:00000000000032B8                 db    4
+seg000:00000000000032B9                 db    4
+seg000:00000000000032BA                 dd offset unk_2D433202
+seg000:00000000000032BE                 dd offset word_A02000A
+seg000:00000000000032C2 off_32C2        dd offset off_20C94     ; DATA XREF: seg000:0000000000220451↓o
+seg000:00000000000032C6                 db  0Ch
+seg000:00000000000032C7                 align 8
+seg000:00000000000032C8                 dq 28C06003502D2D6h
+seg000:00000000000032D0                 db    1
+seg000:00000000000032D1                 db 0FFh
+seg000:00000000000032D2                 dd offset off_6970300
+seg000:00000000000032D6                 db    1
+seg000:00000000000032D7                 align 8
+seg000:00000000000032D8                 db    8
+seg000:00000000000032D9                 db 20h, 41h, 46h, 42h, 19h, 18h, 4Eh
+seg000:00000000000032E0                 db    0
+seg000:00000000000032E1                 db 0A4h
+seg000:00000000000032E2                 dd offset off_4E8800
+seg000:00000000000032E6                 db 0B1h
+seg000:00000000000032E7                 db 18h
+seg000:00000000000032E8                 db 8Ah, 0C0h
+seg000:00000000000032EA                 dw 4B40h, 5241h, 0BC4Bh
+seg000:00000000000032F0                 db  17h
+seg000:00000000000032F1                 dd offset byte_68C0000
+seg000:00000000000032F5                 align 2
+seg000:00000000000032F6                 db    8
+seg000:00000000000032F7                 db  52h ; R
+seg000:00000000000032F8                 db  88h
+seg000:00000000000032F9                 db 8, 50h, 43h, 52h, 32h, 57h, 0C3h
+seg000:0000000000003300 unk_3300        db    0                 ; DATA XREF: seg000:000000000171259E↓o
+seg000:0000000000003301 off_3301        dd offset byte_5000000  ; DATA XREF: seg000:000000003CC76A04↓o
+seg000:0000000000003305                 db  40h ; @
+seg000:0000000000003306                 align 8
+seg000:0000000000003308                 db    0
+seg000:0000000000003309 off_3309        dd offset dword_17BC0000
+seg000:0000000000003309                                         ; DATA XREF: seg000:00000000017EBAB2↓o
+seg000:000000000000330D ; ---------------------------------------------------------------------------
+seg000:000000000000330D                 push    rbx
+seg000:000000000000330E                 iret
+seg000:000000000000330E ; ---------------------------------------------------------------------------
+seg000:000000000000330F                 db 0E5h
+seg000:0000000000003310 unk_3310        db 0D2h                 ; DATA XREF: seg000:00000000153B4E8A↓o
+seg000:0000000000003311                 dd offset off_6C167
+seg000:0000000000003315                 dd offset unk_A0
+seg000:0000000000003319                 db  76h ; v
+seg000:000000000000331A                 db    5
+seg000:000000000000331B                 db 2Fh, 35h, 0C9h, 0E6h, 16h
+seg000:0000000000003320                 dq 4DBFDB0000005006h
+seg000:0000000000003328                 db  38h ; 8
+seg000:0000000000003329                 db  96h
+seg000:000000000000332A off_332A        dd offset off_106+2     ; DATA XREF: seg000:000000000178CD83↓o
+seg000:000000000000332E                 dd offset off_ED4AA00
+seg000:0000000000003332                 db  1Ch
+seg000:0000000000003333                 db  9Eh
+seg000:0000000000003334                 dd 0ECBB4B55h
+seg000:0000000000003338                 db 0AEh
+seg000:0000000000003339                 db 2Eh, 25h, 0B1h, 42h, 96h, 0FEh, 0Ch
+seg000:0000000000003340                 db    2
+seg000:0000000000003341                 dd offset unk_3605E5AD
+seg000:0000000000003345 aAnimanimset_1  db 'animAnimSet',0      ; DATA XREF: seg000:0000000035FFBD51↓o
+seg000:0000000000003351                 db  63h ; c
+seg000:0000000000003352                 db  6Fh ; o
+seg000:0000000000003353 aOkingplatform_0 db 'okingPlatform',0
+seg000:0000000000003361                 db  45h ; E
+seg000:0000000000003362                 db  43h ; C
+seg000:0000000000003363                 db  50h ; P
+seg000:0000000000003364 aLatformPcation_2 db 'LATFORM_PCations',0
+seg000:0000000000003375 aArrayHandleEnt_2 db 'array:handle:Entry',0
+seg000:0000000000003388                 db    0
+seg000:0000000000003389                 db  6Eh ; n
+seg000:000000000000338A                 dd offset nullsub_1
+seg000:000000000000338E aCname_2        db 'CName',0
+seg000:0000000000003394 aAddInertiaRotD db 'add_inertia_rot_down',0
+seg000:00000000000033A9                 dd offset off_727564
+seg000:00000000000033AD                 db  46h ; F
+seg000:00000000000033AE unk_33AE        db  6Ch ; l             ; DATA XREF: seg000:0000000012531263↓o
+seg000:00000000000033AF aOattypeaadditi db 'oatTypeAAdditivBufferICompressed',0
+seg000:00000000000033D0                 db  6Eh ; n
+seg000:00000000000033D1 aUmframes_2     db 'umFrames',0
+seg000:00000000000033DA                 db  55h ; U
+seg000:00000000000033DB                 dd offset unk_33746E69
+seg000:00000000000033DF                 db  32h ; 2
+seg000:00000000000033E0                 db  4Ah ; J
+seg000:00000000000033E1                 db  6Fh ; o
+seg000:00000000000033E2                 dd offset off_31746E69
+seg000:00000000000033E6 a6keysrawconsti_0 db '6KeysRawConstisScaleant',0
+seg000:00000000000033E6                                         ; DATA XREF: seg000:000000000006454A↓o
+seg000:00000000000033FE                 db  42h ; B
+seg000:00000000000033FF                 db  6Fh ; o
+seg000:0000000000003400 qword_3400      dq 4161746164006C6Fh, 6E496B6E75446464h, 7465736600786564h
+seg000:0000000000003400                                         ; DATA XREF: seg000:000000000195DDA6↓o
+seg000:0000000000003400                                         ; seg000:000000002C3B785A↓o ...
+seg000:0000000000003400                 dq 73657479426E49h
+seg000:0000000000003420                 db  7Ah ; z
+seg000:0000000000003421 aEleftrighupstr db 'eleftrighupstrafe_270',0
+seg000:0000000000003437                 db  63h ; c
+seg000:0000000000003438                 db  77h ; w
+seg000:0000000000003439                 db  5Fh ; _
+seg000:000000000000343A aAcnormal       db 'acnormal',0         ; DATA XREF: seg000:000000003B6462CE↓o
+seg000:0000000000003443 aFallbackindice db 'fallbackIndiceeventsEConta',0
+seg000:0000000000003443                                         ; DATA XREF: seg000:00000000372925DB↓o
+seg000:0000000000003443                                         ; seg000:0000000000EB9749↓o
+seg000:000000000000345E                 dw 5F00h
+seg000:0000000000003460 unk_3460        db  53h ; S             ; DATA XREF: seg000:00000000001E93F8↓o
+seg000:0000000000003461 aOundwCybLaunch db 'oundw_cyb_launcher_firequickequip_fast',0
+seg000:0000000000003461                                         ; DATA XREF: seg000:0000000001AB1F41↓o
+seg000:0000000000003488                 db  73h ; s
+seg000:0000000000003489                 db  74h ; t
+seg000:000000000000348A aArtunchargeLoo db 'artuncharge_loopsafeChunk',0
+seg000:000000000000348A                                         ; DATA XREF: seg000:0000000028917182↓o
+seg000:00000000000034A4 aBserializdefer_2 db 'bserializDeferredBes8DescF',0
+seg000:00000000000034BF                 db  6Dh ; m
+seg000:00000000000034C0 aPosimrsnurig_0 db 'PosimRsNurig',0
+seg000:00000000000034CD                 db  72h ; r
+seg000:00000000000034CE unk_34CE        db  52h ; R             ; DATA XREF: seg000:000000000297B231↓o
+seg000:00000000000034CF aEfrig_2        db 'efRig',0
+seg000:00000000000034D5                 db  76h ; v
+seg000:00000000000034D6                 dw 7265h
+seg000:00000000000034D8                 db  73h ; s
+seg000:00000000000034D9                 db 62h, 61h, 73h, 65h, 5Ch, 61h, 63h
+seg000:00000000000034E0                 db  74h ; t
+seg000:00000000000034E1                 db  65h ; e
+seg000:00000000000034E2                 db  72h ; r
+seg000:00000000000034E3                 db  73h ; s
+seg000:00000000000034E4                 db  5Ch ; \
+seg000:00000000000034E5                 db  63h ; c
+seg000:00000000000034E6                 db  79h ; y
+seg000:00000000000034E7                 db  62h ; b
+seg000:00000000000034E8                 db  65h ; e
+seg000:00000000000034E9                 db  72h ; r
+seg000:00000000000034EA                 db  77h ; w
+seg000:00000000000034EB                 db 61h, 72h, 65h, 5Ch, 70h
+seg000:00000000000034F0                 db  6Ch ; l
+seg000:00000000000034F1 byte_34F1       db 61h, 79h, 65h, 72h, 5Ch, 61h, 30h
+seg000:00000000000034F1                                         ; DATA XREF: seg000:0000000000065959↓o
+seg000:00000000000034F8                 db  5Fh ; _
+seg000:00000000000034F9                 db 2 dup(30h), 36h, 5Fh, 5Ch, 65h, 6Eh
+seg000:0000000000003500 unk_3500        db  74h ; t             ; DATA XREF: seg000:000000000008F66E↓o
+seg000:0000000000003501                 db  69h ; i
+seg000:0000000000003502 word_3502       dw 6974h, 7365h, 6D5Ch  ; DATA XREF: seg000:000000003C75D111↓o
+seg000:0000000000003508                 db  65h ; e
+seg000:0000000000003509 byte_3509       db 73h, 68h, 65h, 73h, 77h, 61h, 2Eh
+seg000:0000000000003509                                         ; DATA XREF: seg000:000000003EFA045D↓o
+seg000:0000000000003510 unk_3510        db  72h ; r             ; DATA XREF: seg000:00000000062A8EFB↓o
+seg000:0000000000003511                 dd offset off_28D26769
+seg000:0000000000003515 off_3515        dd offset byte_D92F2    ; DATA XREF: seg000:00000000013F9D0E↓o
+seg000:0000000000003515                                         ; seg000:0000000000EA96E0↓o ...
+seg000:0000000000003519                 db  31h ; 1
+seg000:000000000000351A                 db  13h
+seg000:000000000000351B                 dd offset byte_111D6B6B
+seg000:000000000000351F                 db 0B6h
+seg000:0000000000003520                 db  2Fh ; /
+seg000:0000000000003521                 db 2Eh, 0F8h, 87h, 78h, 6, 3Ah, 40h
+seg000:0000000000003528                 db 0E5h
+seg000:0000000000003529 byte_3529       db 4Fh, 62h, 45h, 95h, 37h, 0BFh, 66h
+seg000:0000000000003529                                         ; DATA XREF: seg000:000000000047C82B↓o
+seg000:0000000000003529                                         ; seg000:000000000150B0EA↓o
+seg000:0000000000003530                 db  63h ; c
+seg000:0000000000003531                 dd offset byte_3BE56549
+seg000:0000000000003535                 db  74h ; t
+seg000:0000000000003536                 db 0D1h
+seg000:0000000000003537                 db  7Bh ; {
+seg000:0000000000003538                 db  1Bh
+seg000:0000000000003539                 db 0Bh, 7Eh, 17h, 0CAh, 0AEh, 0B8h, 93h
+seg000:0000000000003540                 db  8Ah
+seg000:0000000000003541                 db 0D3h
+seg000:0000000000003542                 dd offset unk_3CA13F22
+seg000:0000000000003546                 db 0B6h
+seg000:0000000000003547                 db 0DFh
+seg000:0000000000003548                 db  4Ah ; J
+seg000:0000000000003549                 db 0A6h
+seg000:000000000000354A                 dd offset off_787471B
+seg000:000000000000354E                 db 0ACh
+seg000:000000000000354F                 db 0CAh
+seg000:0000000000003550                 db 0DDh
+seg000:0000000000003551 ; ---------------------------------------------------------------------------
+seg000:0000000000003551                 test    eax, offset sub_2321C682
+seg000:0000000000003556                 and     [rdi], edx
+seg000:0000000000003558                 iret
+seg000:0000000000003559 ; ---------------------------------------------------------------------------
+seg000:0000000000003559                 iret
+seg000:0000000000003559 ; ---------------------------------------------------------------------------
+seg000:000000000000355A                 db 0E2h
+seg000:000000000000355B                 db  87h
+seg000:000000000000355C                 dd 4E1BD57Ah
+seg000:0000000000003560 unk_3560        db  3Ch ; <             ; DATA XREF: seg000:000000003EFA55B4↓o
+seg000:0000000000003561                 db 2Ch, 0E3h, 56h, 83h, 0D3h, 49h, 0F5h
+seg000:0000000000003568                 dq 6CDB69FE1B94CC9Ch
+seg000:0000000000003570                 db  9Eh
+seg000:0000000000003571                 dd offset byte_2BF20109
+seg000:0000000000003575 ; ---------------------------------------------------------------------------
+seg000:0000000000003575                 xchg    eax, esi
+seg000:0000000000003576                 retn
+seg000:0000000000003576 ; ---------------------------------------------------------------------------
+seg000:0000000000003577                 db  25h ; %
+seg000:0000000000003578                 db    1
+seg000:0000000000003579                 db  14h
+seg000:000000000000357A unk_357A        db  34h ; 4             ; DATA XREF: seg000:0000000031D90759↓o
+seg000:000000000000357B                 db 0E5h, 6Fh, 43h, 0CDh, 89h
+seg000:0000000000003580                 db  2Ah ; *
+seg000:0000000000003581                 db 0AAh
+seg000:0000000000003582                 dw 554Dh, 0EC10h, 54DEh
+seg000:0000000000003588                 db 0C8h
+seg000:0000000000003589 unk_3589        db    3                 ; DATA XREF: seg000:000000003A0F4603↓o
+seg000:000000000000358A                 dw 8E8Ah, 4B5Eh, 9558h
+seg000:0000000000003590                 db 0DEh
+seg000:0000000000003591                 db  65h ; e
+seg000:0000000000003592                 db  3Ch ; <
+seg000:0000000000003593                 db  9Fh
+seg000:0000000000003594                 db  67h ; g
+seg000:0000000000003595                 db  56h ; V
+seg000:0000000000003596                 db  71h ; q
+seg000:0000000000003597                 db 0EDh
+seg000:0000000000003598                 db 0D2h
+seg000:0000000000003599                 dd offset off_3380EAD6
+seg000:000000000000359D                 db 0D6h, 49h, 0CCh
+seg000:00000000000035A0                 db  91h
+seg000:00000000000035A1                 db 54h, 0D4h, 0F2h, 0AAh, 0A1h, 3Ah, 5Dh
+seg000:00000000000035A8                 db  9Dh
+seg000:00000000000035A9                 db 3Fh, 0A6h, 0, 7Eh, 8, 4Ch, 0B2h
+seg000:00000000000035B0                 db  5Ch ; \
+seg000:00000000000035B1                 db 0FBh
+seg000:00000000000035B2                 db 0A7h
+seg000:00000000000035B3                 db  95h
+seg000:00000000000035B4                 db 0C6h
+seg000:00000000000035B5                 db  28h ; (
+seg000:00000000000035B6                 db  21h ; !
+seg000:00000000000035B7                 db 0DCh
+seg000:00000000000035B8                 db 0B7h
+seg000:00000000000035B9 ; ---------------------------------------------------------------------------
+seg000:00000000000035B9                 iret
+seg000:00000000000035B9 ; ---------------------------------------------------------------------------
+seg000:00000000000035BA                 dw 9EE8h, 51F6h, 0F7DBh
+seg000:00000000000035C0                 db  86h
+seg000:00000000000035C1                 dd offset qword_35E58460
+seg000:00000000000035C5 byte_35C5       db 7Ah, 76h, 11h        ; DATA XREF: seg000:0000000000DC7293↓o
+seg000:00000000000035C8                 db 0FFh
+seg000:00000000000035C9                 db 0F1h
+seg000:00000000000035CA                 db  56h ; V
+seg000:00000000000035CB                 db 0E8h
+seg000:00000000000035CC                 db 0A5h
+seg000:00000000000035CD                 db  1Ah
+seg000:00000000000035CE                 db    2
+seg000:00000000000035CF                 db 0E8h
+seg000:00000000000035D0                 db  23h ; #
+seg000:00000000000035D1                 db  3Ch ; <
+seg000:00000000000035D2                 db  38h ; 8
+seg000:00000000000035D3                 db  32h ; 2
+seg000:00000000000035D4                 db    2
+seg000:00000000000035D5                 db 0D8h
+seg000:00000000000035D6                 db 0C7h
+seg000:00000000000035D7                 db 0F2h
+seg000:00000000000035D8                 dq 255A342D10024982h
+seg000:00000000000035E0                 db 0F6h
+seg000:00000000000035E1                 db 0A9h
+seg000:00000000000035E2                 db  7Eh ; ~
+seg000:00000000000035E3                 db  6Fh ; o
+seg000:00000000000035E4                 dd 0AB2BF031h
+seg000:00000000000035E8                 db  7Ch ; |
+seg000:00000000000035E9                 dd offset dword_1BD8ADCA
+seg000:00000000000035ED                 db  83h
+seg000:00000000000035EE                 db  7Fh ; 
+seg000:00000000000035EF                 db  69h ; i
+seg000:00000000000035F0                 db 0BCh
+seg000:00000000000035F1                 dd offset unk_12D59EA6
+seg000:00000000000035F5                 db  78h ; x
+seg000:00000000000035F6                 db  99h
+seg000:00000000000035F7                 db 0B2h
+seg000:00000000000035F8                 db  0Bh
+seg000:00000000000035F9                 db  77h ; w
+seg000:00000000000035FA                 dw 4BDAh, 99CDh, 1101h
+seg000:0000000000003600 unk_3600        db  6Ch ; l             ; DATA XREF: seg000:0000000000DC7F56↓o
+seg000:0000000000003601 unk_3601        db 0E1h                 ; DATA XREF: seg000:000000003102E8D2↓o
+seg000:0000000000003602                 db  72h ; r
+seg000:0000000000003603                 db  52h ; R
+seg000:0000000000003604                 db  68h ; h
+seg000:0000000000003605 off_3605        dd offset off_338DEB5E  ; DATA XREF: seg000:00000000014D8B19↓o
+seg000:0000000000003605                                         ; seg000:0000000001E6F5C6↓o
+seg000:0000000000003609 unk_3609        db 0FDh                 ; DATA XREF: seg000:00000000010CEE1B↓o
+seg000:000000000000360A                 db  24h ; $
+seg000:000000000000360B                 db 0FFh
+seg000:000000000000360C unk_360C        db  71h ; q             ; DATA XREF: seg000:0000000001EB881C↓o
+seg000:000000000000360D                 db 0BCh
+seg000:000000000000360E                 dd offset unk_30FAC11
+seg000:0000000000003612                 dw 7908h, 60EEh, 329h
+seg000:0000000000003618                 db 0F3h
+seg000:0000000000003619                 db 0E7h
+seg000:000000000000361A                 db 0E3h
+seg000:000000000000361B                 db 0FDh
+seg000:000000000000361C                 db  34h ; 4
+seg000:000000000000361D                 db  73h ; s
+seg000:000000000000361E                 db 0E7h
+seg000:000000000000361F                 dd offset off_34504CE1
+seg000:0000000000003623 unk_3623        db  5Bh ; [             ; DATA XREF: seg000:0000000002204193↓o
+seg000:0000000000003624                 dd 0D85F283Eh
+seg000:0000000000003628                 db  7Fh ; 
+seg000:0000000000003629                 db 0C6h
+seg000:000000000000362A                 db 0E8h
+seg000:000000000000362B                 db  73h ; s
+seg000:000000000000362C                 db 0ECh
+seg000:000000000000362D                 db  70h ; p
+seg000:000000000000362E                 db 0CBh
+seg000:000000000000362F                 db  81h
+seg000:0000000000003630                 db  7Eh ; ~
+seg000:0000000000003631                 db 0FCh
+seg000:0000000000003632 word_3632       dw 101Dh, 9567h, 77BDh  ; DATA XREF: seg000:0000000000EFFED1↓o
+seg000:0000000000003638                 db 0D8h
+seg000:0000000000003639                 db 0C9h
+seg000:000000000000363A                 dd offset off_2FB99F9F
+seg000:000000000000363E                 dw 0B436h
+seg000:0000000000003640                 db 0DFh
+seg000:0000000000003641                 db  8Ah
+seg000:0000000000003642                 db  98h
+seg000:0000000000003643                 db 0E9h
+seg000:0000000000003644                 db 0BCh
+seg000:0000000000003645                 db 0CAh
+seg000:0000000000003646                 db 0FDh
+seg000:0000000000003647                 db  31h ; 1
+seg000:0000000000003648                 db  64h ; d
+seg000:0000000000003649                 db 0D0h
+seg000:000000000000364A                 db 0D9h
+seg000:000000000000364B                 db 0C2h, 23h, 36h, 0E8h, 0CBh
+seg000:0000000000003650                 db  1Fh
+seg000:0000000000003651                 db 0F4h, 6Bh, 0EFh, 55h, 0AEh, 0F9h, 6Ch
+seg000:0000000000003658                 db  0Fh
+seg000:0000000000003659                 db    4
+seg000:000000000000365A                 db 0DDh
+seg000:000000000000365B                 dd offset off_25AA447C
+seg000:000000000000365F                 db    4
+seg000:0000000000003660 unk_3660        db  94h                 ; DATA XREF: seg000:00000000019DDDDF↓o
+seg000:0000000000003661                 db 61h, 64h, 47h, 40h, 6Fh, 0D6h, 0B5h
+seg000:0000000000003668                 db  19h
+seg000:0000000000003669                 db  4Ch ; L
+seg000:000000000000366A                 db  13h
+seg000:000000000000366B                 db  70h ; p
+seg000:000000000000366C                 dd 86637EC4h
+seg000:0000000000003670                 db  28h ; (
+seg000:0000000000003671                 db 0BEh, 0CEh, 83h, 0EDh, 1Eh, 9Ch, 3Bh
+seg000:0000000000003678                 db  8Eh
+seg000:0000000000003679                 db  79h ; y
+seg000:000000000000367A                 db 0C9h
+seg000:000000000000367B                 db 88h, 2Bh, 99h, 67h, 54h
+seg000:0000000000003680                 dq 0C89E7A0D03B119D2h
+seg000:0000000000003688                 db  78h ; x
+seg000:0000000000003689                 db 0A4h, 0FAh, 3Dh, 0D3h, 0C1h, 9Bh, 0C3h
+seg000:0000000000003690                 dq 5038F2B1298EB3Ch
+seg000:0000000000003698                 db  50h ; P
+seg000:0000000000003699                 dd offset unk_7EB07D8
+seg000:000000000000369D                 db    5
+seg000:000000000000369E                 db 0F9h
+seg000:000000000000369F                 dd offset off_14EAFE27
+seg000:00000000000036A3                 db  1Bh
+seg000:00000000000036A4                 dd offset off_1C236A2C
+seg000:00000000000036A8                 db    5
+seg000:00000000000036A9                 db    1
+seg000:00000000000036AA                 db  21h ; !
+seg000:00000000000036AB                 dd offset unk_70D2E01
+seg000:00000000000036AF                 db  0Fh
+seg000:00000000000036B0                 dq 8D81155E2F0A0E4Fh
+seg000:00000000000036B8                 db  0Eh
+seg000:00000000000036B9                 db 0Fh, 1Dh, 4Ch, 0CDh, 0DCh
+seg000:00000000000036BE                 db  0Bh
+seg000:00000000000036BF                 db 10h
+seg000:00000000000036C0                 db  8Ch
+seg000:00000000000036C1                 db  9Bh
+seg000:00000000000036C2                 dw 4BCAh, 5A11h, 1B89h
+seg000:00000000000036C8                 dq 132D4A8F2525120Ah
+seg000:00000000000036D0                 db 0D9h
+seg000:00000000000036D1                 db 2Fh, 0Dh, 0ECh, 0F9h, 14h, 13h, 91h
+seg000:00000000000036D8                 dq 24140BF219E5CA39h
+seg000:00000000000036E0                 dq 5530151508F5643Fh
+seg000:00000000000036E8                 db 0E6h
+seg000:00000000000036E9                 db 0F9h
+seg000:00000000000036EA                 dw 1606h, 4621h, 0EAD7h
+seg000:00000000000036F0                 db 0F7h
+seg000:00000000000036F1                 dd offset word_172B1706
+seg000:00000000000036F5                 db 0B2h
+seg000:00000000000036F6                 dd offset unk_1EFDC
+seg000:00000000000036FA                 dd offset byte_18E8FB8D
+seg000:00000000000036FE                 dw 0D30Eh
+seg000:0000000000003700 unk_3700        db 0C9h                 ; DATA XREF: seg000:00000000019593EA↓o
+seg000:0000000000003701 off_3701        dd offset unk_E7C0580   ; DATA XREF: seg000:0000000001F7C454↓o
+seg000:0000000000003705                 db 66h, 0D9h, 0A6h
+seg000:0000000000003708                 dq 6000300020075h
+seg000:0000000000003710 off_3710        dq 0B34000600050004h    ; DATA XREF: seg000:000000003D31AF41↓o
+seg000:0000000000003718                 db    2
+seg000:0000000000003719                 align 2
+seg000:000000000000371A                 dd offset off_110E0805
+seg000:000000000000371E                 dd offset word_27221D16
+seg000:0000000000003722                 db  2Ch ; ,
+seg000:0000000000003723 off_3723        dd offset byte_3E003D   ; DATA XREF: seg000:0000000001355D10↓o
+seg000:0000000000003727                 db  15h
+seg000:0000000000003728                 db    1
+seg000:0000000000003729                 dd offset off_40003F
+seg000:000000000000372D                 dd offset off_2A004100+6
+seg000:0000000000003731                 dd offset off_38013C03
+seg000:0000000000003735                 db    1
+seg000:0000000000003736                 dd offset off_42014C
+seg000:000000000000373A                 dd offset unk_1000943
+seg000:000000000000373E                 dd offset dword_10200+2
+seg000:0000000000003742 off_3742        dd offset dword_450044  ; DATA XREF: seg000:00000000006D2DA9↓o
+seg000:0000000000003742                                         ; seg000:0000000000B7392F↓o
+seg000:0000000000003746                 dd offset off_46004D
+seg000:000000000000374A                 dw 19h, 4706h, 4C4Dh
+seg000:0000000000003750                 db  51h ; Q
+seg000:0000000000003751                 db 48h, 49h, 0, 4Ah, 0, 8, 2
+seg000:0000000000003758                 db  80h
+seg000:0000000000003759                 db  4Bh ; K
+seg000:000000000000375A                 dw 0CC4Ch, 4D00h, 4E00h
+seg000:0000000000003760 unk_3760        db  4Fh ; O             ; DATA XREF: seg000:00000000011CD214↓o
+seg000:0000000000003761                 align 2
+seg000:0000000000003762                 dd offset byte_9080017
+seg000:0000000000003766                 db    3
+seg000:0000000000003767 off_3767        dd offset dword_C000B   ; DATA XREF: seg000:000000003EFE3D3E↓o
+seg000:000000000000376B                 dd offset unk_E000D06
+seg000:000000000000376F                 align 10h
+seg000:0000000000003770                 db  0Fh
+seg000:0000000000003771                 dd offset unk_1100103F
+seg000:0000000000003775                 db  12h
+seg000:0000000000003776 off_3776        dd offset byte_14001300 ; DATA XREF: seg000:000000000DE62185↓o
+seg000:000000000000377A                 db    4
+seg000:000000000000377B                 db 16h, 10h, 18h, 6Fh, 0
+seg000:0000000000003780                 db  1Ah
+seg000:0000000000003781                 dd offset byte_1C341B63
+seg000:0000000000003785                 dd offset unk_1E001DBF
+seg000:0000000000003789                 align 2
+seg000:000000000000378A off_378A        dd offset aTaadddunkindex
+seg000:000000000000378A                                         ; DATA XREF: seg000:000000003B4BA552↓o
+seg000:000000000000378A                                         ; "taAddDunkIndex"
+seg000:000000000000378E                 db  20h
+seg000:000000000000378F                 align 10h
+seg000:0000000000003790                 dq 2406130E2322002Bh
+seg000:0000000000003798 off_3798        dq 250912FA130E6107h    ; DATA XREF: seg000:off_2000406↓o
+seg000:00000000000037A0                 db  0Ah
+seg000:00000000000037A1                 db  6Ah ; j
+seg000:00000000000037A2                 db    8
+seg000:00000000000037A3                 dd offset off_C135426
+seg000:00000000000037A7                 db 26h
+seg000:00000000000037A8                 dq 270F1408395C7C0Dh
+seg000:00000000000037B0                 db  10h
+seg000:00000000000037B1                 db 69h, 64h, 4Dh, 4Ah, 13h, 12h, 2Bh
+seg000:00000000000037B8                 dq 3E99999A28142C00h
+seg000:00000000000037C0                 db  13h
+seg000:00000000000037C1                 db 0Ah, 39h, 1, 0E8h, 98h, 29h, 0
+seg000:00000000000037C8                 db  2Ah ; *
+seg000:00000000000037C9                 align 2
+seg000:00000000000037CA                 dd offset word_3A60AE0A
+seg000:00000000000037CE                 db  24h ; $
+seg000:00000000000037CF                 db  2Bh ; +
+seg000:00000000000037D0                 dq 173130010C002E00h
+seg000:00000000000037D8                 db  19h
+seg000:00000000000037D9                 db  32h ; 2
+seg000:00000000000037DA                 dw 0DDDEh, 3F5Dh, 1B18h
+seg000:00000000000037E0                 dq 1020C5102200501h
+seg000:00000000000037E8                 db 0E8h
+seg000:00000000000037E9                 db  84h
+seg000:00000000000037EA                 db  1Ah
+seg000:00000000000037EB                 dd offset loc_1A031459
+seg000:00000000000037EF off_37EF        dd offset unk_434331C   ; DATA XREF: seg000:00000000000638AD↓o
+seg000:00000000000037EF                                         ; seg000:0000000001FDDEF0↓o
+seg000:00000000000037F3                 dd offset off_1E351031
+seg000:00000000000037F7                 db  20h
+seg000:00000000000037F8                 db  36h ; 6
+seg000:00000000000037F9                 dd offset off_1F844444
+seg000:00000000000037FD                 db 20h, 0FFh, 1
+seg000:0000000000003800 unk_3800        db 0A6h                 ; DATA XREF: seg000:000000000007CC92↓o
+seg000:0000000000003800                                         ; seg000:00000000309DD29A↓o
+seg000:0000000000003801                 align 2
+seg000:0000000000003802                 db  70h ; p
+seg000:0000000000003803                 db    2
+seg000:0000000000003804 off_3804        dd offset unk_212556DE  ; DATA XREF: seg000:0000000000090991↓o
+seg000:0000000000003804                                         ; seg000:00000000013873EA↓o ...
+seg000:0000000000003808 off_3808        dq 2408888938252337h    ; DATA XREF: seg000:0000000014E106F2↓o
+seg000:0000000000003808                                         ; seg000:000000001E1D8206↓o ...
+seg000:0000000000003810 unk_3810        db  11h                 ; DATA XREF: seg000:00000000018BBCE6↓o
+seg000:0000000000003811                 dd offset off_15303FE
+seg000:0000000000003815 off_3815        dd offset word_3580452  ; DATA XREF: seg000:0000000000BBEA5E↓o
+seg000:0000000000003819                 db    1
+seg000:000000000000381A                 dd offset unk_3926423C
+seg000:000000000000381E                 db  28h ; (
+seg000:000000000000381F                 dd offset unk_11113A2A
+seg000:0000000000003823                 db 11h, 29h, 12h, 62h, 5Bh
+seg000:0000000000003828                 db  55h ; U
+seg000:0000000000003829 off_3829        dd offset unk_3CD44594  ; DATA XREF: seg000:000000000129294D↓o
+seg000:000000000000382D                 db  2Bh ; +
+seg000:000000000000382E unk_382E        db  3Bh ; ;             ; DATA XREF: seg000:00000000015B81D7↓o
+seg000:000000000000382F                 dd offset unk_2EC03C2D
+seg000:0000000000003833                 dd offset unk_3C06C22E
+seg000:0000000000003837                 db    2
+seg000:0000000000003838                 dq 6D74826808000762h
+seg000:0000000000003840                 db    0
+seg000:0000000000003841                 db 5 dup(0), 30h, 7
+seg000:0000000000003848                 db  98h
+seg000:0000000000003849                 dd offset off_700B601
+seg000:000000000000384D                 dd offset unk_3020227
+seg000:0000000000003851                 db    3
+seg000:0000000000003852                 db    3
+seg000:0000000000003853                 db    3
+seg000:0000000000003854                 db 0D7h
+seg000:0000000000003855                 db    7
+seg000:0000000000003856                 db    5
+seg000:0000000000003857                 db    3
+seg000:0000000000003858                 db    5
+seg000:0000000000003859                 db 0DBh
+seg000:000000000000385A unk_385A        db 0BCh                 ; DATA XREF: seg000:00000000001398DB↓o
+seg000:000000000000385A                                         ; seg000:000000000019A461↓o
+seg000:000000000000385B ; ---------------------------------------------------------------------------
+seg000:000000000000385B                 test    edi, 0E9E0BBE7h
+seg000:0000000000003861                 fdivr   st, st
+seg000:0000000000003863                 iret
+seg000:0000000000003863 ; ---------------------------------------------------------------------------
+seg000:0000000000003864                 db  4Fh ; O
+seg000:0000000000003865                 db 0E3h
+seg000:0000000000003866 unk_3866        db  4Fh ; O             ; DATA XREF: seg000:00000000013F329C↓o
+seg000:0000000000003867                 db 0EDh
+seg000:0000000000003868                 db 0D3h
+seg000:0000000000003869                 db 0EBh
+seg000:000000000000386A                 dw 0D4DDh, 0F4C8h, 13CBh
+seg000:0000000000003870                 db  0Ah
+seg000:0000000000003871 ; ---------------------------------------------------------------------------
+seg000:0000000000003871                 enter   0FFFFFFFFFFFFCBEBh, 0DFh
+seg000:0000000000003875                 iret
+seg000:0000000000003876 ; ---------------------------------------------------------------------------
+seg000:0000000000003876                 retf
+seg000:0000000000003877 ; ---------------------------------------------------------------------------
+seg000:0000000000003877                 fsubr   st(5), st
+seg000:0000000000003879                 xlat
+seg000:000000000000387A                 cld
+seg000:000000000000387B                 jmp     short loc_389D
+seg000:000000000000387B ; ---------------------------------------------------------------------------
+seg000:000000000000387D                 db 0FFh, 0EEh, 0CFh
+seg000:0000000000003880 ; ---------------------------------------------------------------------------
+seg000:0000000000003880                 iret
+seg000:0000000000003880 ; ---------------------------------------------------------------------------
+seg000:0000000000003881                 db 0DBh
+seg000:0000000000003882                 dw 0EBD4h, 0CBCDh, 0FCFDh
+seg000:0000000000003888                 dq 0F8CFFBE7CCD3EDD4h, 0E0FCD4C8C8FBC8E2h
+seg000:0000000000003898                 db 0F8h
+seg000:0000000000003899                 db 0DCh, 0E3h, 0C8h, 0D7h
+seg000:000000000000389D ; ---------------------------------------------------------------------------
+seg000:000000000000389D
+seg000:000000000000389D loc_389D:                               ; CODE XREF: seg000:000000000000387B↑j
+seg000:000000000000389D                 fcomp   st(4)
+seg000:000000000000389F                 ror     byte ptr [rdi], cl
+seg000:00000000000038A1                 retf
+seg000:00000000000038A1 ; ---------------------------------------------------------------------------
+seg000:00000000000038A2 unk_38A2        db 0CDh                 ; DATA XREF: seg000:0000000000A7EBD2↓o
+seg000:00000000000038A3                 db 0DCh
+seg000:00000000000038A4                 dd 0ECCCFEE4h
+seg000:00000000000038A8                 db 0DDh
+seg000:00000000000038A9                 db 0C8h
+seg000:00000000000038AA                 db 0CCh
+seg000:00000000000038AB                 db 0FBh, 0D5h, 0DCh, 0D3h, 0D6h
+seg000:00000000000038B0 ; ---------------------------------------------------------------------------
+seg000:00000000000038B0                 in      eax, dx
+seg000:00000000000038B1                 enter   0FFFFFFFFFFFFF0D4h, 0E0h
+seg000:00000000000038B5                 cld
+seg000:00000000000038B6                 fimul   word ptr [rax-30B3231Ch]
+seg000:00000000000038BC                 retf
+seg000:00000000000038BD ; ---------------------------------------------------------------------------
+seg000:00000000000038BD                 retf
+seg000:00000000000038BD ; ---------------------------------------------------------------------------
+seg000:00000000000038BE                 db 0DFh
+seg000:00000000000038BF                 db 0DBh
+seg000:00000000000038C0 off_38C0        dq 30303CB03C8DFE2h     ; DATA XREF: seg000:000000001D4FA322↓o
+seg000:00000000000038C8                 dq 703030303030303h
+seg000:00000000000038D0                 db 0FFh
+seg000:00000000000038D1                 db  55h ; U
+seg000:00000000000038D2                 db    2
+seg000:00000000000038D3 byte_38D3       db 0E2h, 15h, 45h, 62h, 15h
+seg000:00000000000038D3                                         ; DATA XREF: seg000:000000000014E6B1↓o
+seg000:00000000000038D8                 db    5
+seg000:00000000000038D9                 db  25h ; %
+seg000:00000000000038DA                 db  15h
+seg000:00000000000038DB                 db    5
+seg000:00000000000038DC                 db  15h
+seg000:00000000000038DD                 db 0F8h
+seg000:00000000000038DE                 dw 553Eh
+seg000:00000000000038E0                 db  78h ; x
+seg000:00000000000038E1                 db  55h ; U
+seg000:00000000000038E2                 db  78h ; x
+seg000:00000000000038E3                 db  3Dh ; =
+seg000:00000000000038E4                 db  3Dh ; =
+seg000:00000000000038E5                 db 3Eh, 55h, 78h
+seg000:00000000000038E8                 db  55h ; U
+seg000:00000000000038E9                 db  78h ; x
+seg000:00000000000038EA                 db  3Dh ; =
+seg000:00000000000038EB                 db 3Eh, 55h, 78h, 45h, 78h
+seg000:00000000000038F0                 db    5
+seg000:00000000000038F1                 db 3Eh, 5, 45h, 78h, 5, 65h, 15h
+seg000:00000000000038F8                 db    5
+seg000:00000000000038F9                 db  25h ; %
+seg000:00000000000038FA                 db  15h
+seg000:00000000000038FB                 db    5
+seg000:00000000000038FC                 db  15h
+seg000:00000000000038FD                 db 0F8h
+seg000:00000000000038FE                 db  3Dh ; =
+seg000:00000000000038FF                 db 3Eh
+seg000:0000000000003900 unk_3900        db    5                 ; DATA XREF: seg000:000000000129E82A↓o
+seg000:0000000000003901                 db  55h ; U
+seg000:0000000000003902 unk_3902        db  4Ch ; L             ; DATA XREF: seg000:00000000123C9049↓o
+seg000:0000000000003902                                         ; seg000:000000003222E3DD↓o
+seg000:0000000000003903                 db 0A4h
+seg000:0000000000003904 off_3904        dd offset byte_57DB895  ; DATA XREF: seg000:0000000001697D6F↓o
+seg000:0000000000003908                 db  3Dh ; =
+seg000:0000000000003909 byte_3909       db 0FEh, 55h, 78h, 55h, 78h, 55h, 0F8h
+seg000:0000000000003909                                         ; DATA XREF: seg000:off_30C74D9D↓o
+seg000:0000000000003910                 db  55h ; U
+seg000:0000000000003911                 db  78h ; x
+seg000:0000000000003912                 dw 553Eh, 2 dup(5578h)
+seg000:0000000000003918                 db 0F8h
+seg000:0000000000003919                 db  55h ; U
+seg000:000000000000391A                 db  78h ; x
+seg000:000000000000391B                 db  3Dh ; =
+seg000:000000000000391C                 dd 5578553Eh
+seg000:0000000000003920                 db  78h ; x
+seg000:0000000000003921                 db  55h ; U
+seg000:0000000000003922                 db  78h ; x
+seg000:0000000000003923 ; ---------------------------------------------------------------------------
+seg000:0000000000003923                 push    rbp
+seg000:0000000000003924                 clc
+seg000:0000000000003925                 mov     ebp, offset word_2F8953E
+seg000:000000000000392A                 or      eax, offset unk_3420202
+seg000:0000000000003930
+seg000:0000000000003930 loc_3930:                               ; DATA XREF: seg000:000000000511F0BA↓o
+seg000:0000000000003930                 xchg    eax, cs:dword_5D53E38
+seg000:0000000000003936
+seg000:0000000000003936 loc_3936:                               ; DATA XREF: seg000:0000000004115186↓o
+seg000:0000000000003936                                         ; seg000:0000000001B47F5B↓o
+seg000:0000000000003936                 add     eax, offset dword_5050505
+seg000:000000000000393B
+seg000:000000000000393B loc_393B:                               ; DATA XREF: seg000:0000000001654333↓o
+seg000:000000000000393B                                         ; seg000:000000000297440D↓o ...
+seg000:000000000000393B                 add     eax, 0CFD74907h
+seg000:0000000000003940                 add     eax, 0D70705CFh
+seg000:0000000000003945                 iret
+seg000:0000000000003945 ; ---------------------------------------------------------------------------
+seg000:0000000000003946                 dd offset byte_53DFDD5
+seg000:000000000000394A                 db 0FDh
+seg000:000000000000394B                 dd offset unk_15DE0107
+seg000:000000000000394F                 db 0D7h
+seg000:0000000000003950                 dq 0CF84CF0711CDC8DBh
+seg000:0000000000003958                 db  0Fh
+seg000:0000000000003959                 dd offset byte_5D5EC8D
+seg000:000000000000395D                 db 0D5h, 0D7h, 5
+seg000:0000000000003960                 dq 5D4CF07051505D5h
+seg000:0000000000003968                 db 0A5h
+seg000:0000000000003969                 dd offset byte_31EC0215
+seg000:000000000000396D                 db  3Dh ; =
+seg000:000000000000396E                 dd offset unk_36223D3D
+seg000:0000000000003972                 dd offset unk_3D3D3D31
+seg000:0000000000003976                 db  22h ; "
+seg000:0000000000003977                 dd offset off_3D3D3136
+seg000:000000000000397B                 db  3Dh ; =
+seg000:000000000000397C                 db  22h ; "
+seg000:000000000000397D                 dd offset off_3D3D3136
+seg000:0000000000003981                 db  3Dh ; =
+seg000:0000000000003982 unk_3982        db  22h ; "             ; DATA XREF: seg000:000000000007D64E↓o
+seg000:0000000000003983                 db 36h, 5, 4Fh, 0F1h, 1Dh
+seg000:0000000000003988                 db 0DBh
+seg000:0000000000003989                 dd offset off_3D58C831
+seg000:000000000000398D                 db  22h ; "
+seg000:000000000000398E                 db  25h ; %
+seg000:000000000000398F                 db  29h ; )
+seg000:0000000000003990                 dq 0E9D5E1071622FCDFh
+seg000:0000000000003998                 db  25h ; %
+seg000:0000000000003999                 db  31h ; 1
+seg000:000000000000399A                 db  1Dh
+seg000:000000000000399B                 db  1Bh
+seg000:000000000000399C                 db  31h ; 1
+seg000:000000000000399D                 dd offset off_223D58C8
+seg000:00000000000039A1                 dd offset word_D053922
+seg000:00000000000039A5                 db 0FDh
+seg000:00000000000039A6                 dd offset off_5052622
+seg000:00000000000039AA                 dw 0F1D5h, 0D509h, 29E5h
+seg000:00000000000039B0 off_39B0        dq 0C8311F1D3125E925h   ; DATA XREF: seg000:000000000297C989↓o
+seg000:00000000000039B8                 db  58h ; X
+seg000:00000000000039B9                 db  3Dh ; =
+seg000:00000000000039BA                 db  22h ; "
+seg000:00000000000039BB                 db  22h ; "
+seg000:00000000000039BC                 dd offset off_3078C83D
+seg000:00000000000039C0                 db  22h ; "
+seg000:00000000000039C1                 dd offset word_252931FE
+seg000:00000000000039C5                 db  31h ; 1
+seg000:00000000000039C6                 db  1Dh
+seg000:00000000000039C7                 db 1Fh
+seg000:00000000000039C8                 db  31h ; 1
+seg000:00000000000039C9                 dd offset off_223D58C8
+seg000:00000000000039CD                 dd offset off_1F3D3D22
+seg000:00000000000039D1                 dd offset word_252931FE
+seg000:00000000000039D5                 db  31h ; 1
+seg000:00000000000039D6                 db  1Dh
+seg000:00000000000039D7                 db 1Fh
+seg000:00000000000039D8                 db  31h ; 1
+seg000:00000000000039D9                 dd offset unk_253D5888
+seg000:00000000000039DD                 db  25h ; %
+seg000:00000000000039DE                 dd offset off_3078C83D
+seg000:00000000000039E2                 dd offset word_29313E22
+seg000:00000000000039E6                 dw 1DF1h
+seg000:00000000000039E8                 db  40h ; @
+seg000:00000000000039E9                 db  5Dh ; ]
+seg000:00000000000039EA                 dd offset off_3D58C831
+seg000:00000000000039EE                 db  22h ; "
+seg000:00000000000039EF                 db  22h ; "
+seg000:00000000000039F0                 dq 0AD02031026223F3Dh
+seg000:00000000000039F8                 db 0CDh
+seg000:00000000000039F9                 db 0BDh
+seg000:00000000000039FA                 dd offset off_14388D88+7
+seg000:00000000000039FE                 dw 200h
+seg000:0000000000003A00                 db    1
+seg000:0000000000003A01 off_3A01        dd offset off_A9A8080   ; DATA XREF: seg000:00000000018C0E54↓o
+seg000:0000000000003A01                                         ; seg000:000000003D6D334C↓o ...
+seg000:0000000000003A05 off_3A05        dd offset byte_1B180C1E ; DATA XREF: seg000:off_3EFEB0E4↓o
+seg000:0000000000003A09 off_3A09        dd offset off_B0E1618   ; DATA XREF: seg000:00000000011382A1↓o
+seg000:0000000000003A0D                 db  12h
+seg000:0000000000003A0E                 db  1Dh
+seg000:0000000000003A0F                 db  0Dh
+seg000:0000000000003A10                 db  10h
+seg000:0000000000003A11 off_3A11        dd offset qword_E111110+411h
+seg000:0000000000003A11                                         ; DATA XREF: seg000:0000000031C14C73↓o
+seg000:0000000000003A15                 db  0Eh
+seg000:0000000000003A16 off_3A16        dd offset qword_B0A1530+2DCh
+seg000:0000000000003A16                                         ; DATA XREF: seg000:000000003EFE4E34↓o
+seg000:0000000000003A1A                 db  12h
+seg000:0000000000003A1B                 dd offset unk_E211F0E
+seg000:0000000000003A1F                 dd offset off_10102A09
+seg000:0000000000003A23                 db  10h
+seg000:0000000000003A24                 db  13h
+seg000:0000000000003A25 off_3A25        dd offset byte_2C283029 ; DATA XREF: seg000:0000000002410C71↓o
+seg000:0000000000003A29                 db  0Dh
+seg000:0000000000003A2A                 dd offset byte_13310E1D
+seg000:0000000000003A2E                 dd offset unk_23311D0B
+seg000:0000000000003A32                 dd offset unk_13132513
+seg000:0000000000003A36                 dd offset unk_120E141B
+seg000:0000000000003A3A off_3A3A        dd offset off_12191A16  ; DATA XREF: seg000:000000003D27C6EE↓o
+seg000:0000000000003A3E                 db  11h
+seg000:0000000000003A3F                 dd offset byte_282B3033
+seg000:0000000000003A43                 dd offset unk_12133310
+seg000:0000000000003A47                 dd offset unk_310F312D
+seg000:0000000000003A4B                 dd offset byte_2920132E
+seg000:0000000000003A4F                 db  21h ; !
+seg000:0000000000003A50                 db  13h
+seg000:0000000000003A51                 dd offset off_1A313812
+seg000:0000000000003A55                 dd offset byte_24101F13
+seg000:0000000000003A59                 db  24h ; $
+seg000:0000000000003A5A                 dd offset off_221D101C
+seg000:0000000000003A5E                 db  38h ; 8
+seg000:0000000000003A5F                 db  2Ch ; ,
+seg000:0000000000003A60                 db  2Dh ; -
+seg000:0000000000003A61 off_3A61        dd offset byte_3B3B1312 ; DATA XREF: seg000:00000000021FE1E9↓o
+seg000:0000000000003A65                 dd offset dword_1A10400C
+seg000:0000000000003A69                 dd offset qword_20292320
+seg000:0000000000003A6D                 dd offset off_A0C4433
+seg000:0000000000003A71                 dd offset off_20131918
+seg000:0000000000003A75                 db    9
+seg000:0000000000003A76                 dd offset off_24171D08+7
+seg000:0000000000003A7A                 db  18h
+seg000:0000000000003A7B                 db  28h ; (
+seg000:0000000000003A7C                 dd offset byte_130F100B
+seg000:0000000000003A80                 db  1Ch
+seg000:0000000000003A81                 db  20h
+seg000:0000000000003A82                 dd offset byte_113C0A0F
+seg000:0000000000003A86                 dd offset unk_10242524
+seg000:0000000000003A8A                 dd offset unk_243C2541
+seg000:0000000000003A8E                 dd offset byte_21271027
+seg000:0000000000003A92                 dd offset unk_29101828
+seg000:0000000000003A96                 dd offset unk_10303F10
+seg000:0000000000003A9A                 dd offset unk_10264127
+seg000:0000000000003A9E                 db  30h ; 0
+seg000:0000000000003A9F                 db    3
+seg000:0000000000003AA0                 db  64h ; d
+seg000:0000000000003AA1                 align 2
+seg000:0000000000003AA2                 db  68h ; h
+seg000:0000000000003AA3                 db 0A0h, 0F0h, 59h, 91h, 57h
+seg000:0000000000003AA8                 db    9
+seg000:0000000000003AA9                 db  23h ; #
+seg000:0000000000003AAA word_3AAA       dw 5CCAh, 0ACABh, 0ED6Dh
+seg000:0000000000003AAA                                         ; DATA XREF: seg000:0000000000CA8A21↓o
+seg000:0000000000003AB0                 dq 18889A3541F0C7h
+seg000:0000000000003AB8                 db 0A2h
+seg000:0000000000003AB9                 dd offset unk_1DE5FCF3
+seg000:0000000000003ABD                 db  23h ; #
+seg000:0000000000003ABE                 dw 0A807h
+seg000:0000000000003AC0                 db  9Dh
+seg000:0000000000003AC1 byte_3AC1       db 0FEh, 3, 0E0h, 76h, 0DAh, 56h, 43h
+seg000:0000000000003AC1                                         ; DATA XREF: seg000:000000003EF69A4C↓o
+seg000:0000000000003AC8                 dq 1F52F43286739CCh
+seg000:0000000000003AD0                 db  1Ch
+seg000:0000000000003AD1                 db  3Ch ; <
+seg000:0000000000003AD2                 dw 9640h, 0BD1Bh, 214Fh
+seg000:0000000000003AD8                 db  65h ; e
+seg000:0000000000003AD9                 db    2
+seg000:0000000000003ADA                 dd offset loc_1DB77770+4
+seg000:0000000000003ADE                 dw 0EC58h
+seg000:0000000000003AE0                 db 0BDh
+seg000:0000000000003AE1 unk_3AE1        db  77h ; w             ; DATA XREF: seg000:00000000213B29FE↓o
+seg000:0000000000003AE2                 dw 7469h, 0D545h, 0A00h
+seg000:0000000000003AE8                 db  11h
+seg000:0000000000003AE9                 db  8Ah
+seg000:0000000000003AEA word_3AEA       dw 0F2AAh, 0ADB5h, 726Ah
+seg000:0000000000003AF0                 db  43h ; C
+seg000:0000000000003AF1                 dd offset loc_1B253EE
+seg000:0000000000003AF5 off_3AF5        dd offset unk_25461A0F  ; DATA XREF: seg000:000000003EFEBD9E↓o
+seg000:0000000000003AF9 byte_3AF9       db 0E6h, 0FAh, 4Bh, 0A7h, 0F7h, 42h, 2Ch
+seg000:0000000000003AF9                                         ; DATA XREF: seg000:0000000000A9F833↓o
+seg000:0000000000003B00 unk_3B00        db  10h                 ; DATA XREF: seg000:000000000135C906↓o
+seg000:0000000000003B01 unk_3B01        db  63h ; c             ; DATA XREF: seg000:0000000001F51D89↓o
+seg000:0000000000003B01                                         ; seg000:000000003BDDF727↓o
+seg000:0000000000003B02                 db  11h
+seg000:0000000000003B03 byte_3B03       db 0ADh, 0CDh, 0BDh, 8Fh, 8Dh
+seg000:0000000000003B03                                         ; DATA XREF: seg000:000000000150534A↓o
+seg000:0000000000003B03                                         ; seg000:00000000016686F1↓o ...
+seg000:0000000000003B08                 db 0FEh
+seg000:0000000000003B09                 db  13h
+seg000:0000000000003B0A                 db    1
+seg000:0000000000003B0B                 dd offset word_E823D4E
+seg000:0000000000003B0F                 db 64h
+seg000:0000000000003B10                 dq 5D22FDE92E71A827h
+seg000:0000000000003B18 ; ---------------------------------------------------------------------------
+seg000:0000000000003B18                 stc
+seg000:0000000000003B19                 xor     al, 69h
+seg000:0000000000003B1B                 adc     eax, offset unk_2AACA0EA
+seg000:0000000000003B20                 add     cs:0FFFFFFFFC389BAE4h, bh
+seg000:0000000000003B26                 iret
+seg000:0000000000003B26 ; ---------------------------------------------------------------------------
+seg000:0000000000003B27                 db 0E0h
+seg000:0000000000003B28                 db  87h
+seg000:0000000000003B29                 align 2
+seg000:0000000000003B2A                 db 0BCh
+seg000:0000000000003B2B                 db  93h
+seg000:0000000000003B2C                 dd 99DC70A0h
+seg000:0000000000003B30                 db  99h
+seg000:0000000000003B31                 db 0FAh, 0EFh, 51h, 0D4h, 0Ah, 3Bh, 30h
+seg000:0000000000003B38                 db    4
+seg000:0000000000003B39                 db  28h ; (
+seg000:0000000000003B3A                 db  14h
+seg000:0000000000003B3B                 db  17h
+seg000:0000000000003B3C                 db 0E6h
+seg000:0000000000003B3D                 db 0B8h
+seg000:0000000000003B3E                 db  95h
+seg000:0000000000003B3F                 db 0ACh
+seg000:0000000000003B40                 db  5Bh ; [
+seg000:0000000000003B41                 db 7Ah, 0D3h, 4Fh, 0DEh, 0F8h, 4, 0D5h
+seg000:0000000000003B48                 db 0C7h
+seg000:0000000000003B49                 db 0A0h
+seg000:0000000000003B4A                 db 0B2h
+seg000:0000000000003B4B                 db  4Bh ; K
+seg000:0000000000003B4C                 dd 7C4B5241h
+seg000:0000000000003B50                 db  0Eh
+seg000:0000000000003B51                 dd offset byte_68C0000
+seg000:0000000000003B55                 align 2
+seg000:0000000000003B56                 db    5
+seg000:0000000000003B57                 db  72h ; r
+seg000:0000000000003B58                 db  80h
+seg000:0000000000003B59 off_3B59        dd offset byte_7005     ; DATA XREF: seg000:0000000000EE2C41↓o
+seg000:0000000000003B5D                 db    1
+seg000:0000000000003B5E                 dd offset dword_2000100
+seg000:0000000000003B62                 dw 4000h, 7813h, 6004h
+seg000:0000000000003B68                 db  8Eh
+seg000:0000000000003B69                 db  2Dh ; -
+seg000:0000000000003B6A                 db  80h
+seg000:0000000000003B6B                 db    5
+seg000:0000000000003B6C                 db  31h ; 1
+seg000:0000000000003B6D                 db    9
+seg000:0000000000003B6E                 dd offset unk_934A42C
+seg000:0000000000003B72                 dw 7FCAh, 0CE4Ah, 596Eh
+seg000:0000000000003B78                 db  72h ; r
+seg000:0000000000003B79                 db 0C2h, 5Ch, 65h, 0ABh, 99h, 90h, 0D4h
+seg000:0000000000003B80 unk_3B80        db 0CAh                 ; DATA XREF: seg000:000000000010AD19↓o
+seg000:0000000000003B81                 db  84h
+seg000:0000000000003B82 unk_3B82        db 0A6h                 ; DATA XREF: seg000:000000003EF6A3EC↓o
+seg000:0000000000003B83                 db 5Fh, 0A7h, 14h, 93h, 8Bh
+seg000:0000000000003B88                 db  9Ch
+seg000:0000000000003B89                 db 4Ch, 94h, 9Ch, 91h, 14h, 9Ch, 92h
+seg000:0000000000003B90                 db 0D6h
+seg000:0000000000003B91 ; ---------------------------------------------------------------------------
+seg000:0000000000003B91                 pushfq
+seg000:0000000000003B92                 xchg    eax, edx
+seg000:0000000000003B93                 retf
+seg000:0000000000003B93 ; ---------------------------------------------------------------------------
+seg000:0000000000003B94                 db  3Ah ; :
+seg000:0000000000003B95                 db  5Fh ; _
+seg000:0000000000003B96                 dw 0A62Fh
+seg000:0000000000003B98                 db  41h ; A
+seg000:0000000000003B99                 db 0A9h
+seg000:0000000000003B9A word_3B9A       dw 0DC27h, 0A9A6h, 9DA4h
+seg000:0000000000003B9A                                         ; DATA XREF: seg000:000000003A7E14B7↓o
+seg000:0000000000003BA0                 db  77h ; w
+seg000:0000000000003BA1                 dd offset unk_2A4743F3
+seg000:0000000000003BA5                 db 0BAh
+seg000:0000000000003BA6 ; ---------------------------------------------------------------------------
+seg000:0000000000003BA6                 sbb     ah, cl
+seg000:0000000000003BA8 ; [00000001 BYTES: COLLAPSED FUNCTION nullsub_533. PRESS CTRL-NUMPAD+ TO EXPAND]
+seg000:0000000000003BA9                 db  33h ; 3
+seg000:0000000000003BAA                 dw 3336h, 0D90Ch, 7BE6h
+seg000:0000000000003BB0 off_3BB0        dq 0BD02CB470A1EDE18h   ; DATA XREF: seg000:0000000001D86832↓o
+seg000:0000000000003BB8                 db    0
+seg000:0000000000003BB9                 db  40h ; @
+seg000:0000000000003BBA                 db  10h
+seg000:0000000000003BBB                 dd offset unk_1AD0082
+seg000:0000000000003BBF off_3BBF        dd offset qword_12008D00
+seg000:0000000000003BBF                                         ; DATA XREF: seg000:000000001121C272↓o
+seg000:0000000000003BC3                 db    2
+seg000:0000000000003BC4                 dd offset unk_10204081
+seg000:0000000000003BC8                 db    8
+seg000:0000000000003BC9                 db 1Dh, 41h, 0C8h, 44h, 12h, 82h, 8Ch
+seg000:0000000000003BD0                 db  8Ch
+seg000:0000000000003BD1 byte_3BD1       db 6 dup(82h), 42h      ; DATA XREF: seg000:000000003EFD20EE↓o
+seg000:0000000000003BD8                 db  28h ; (
+seg000:0000000000003BD9 unk_3BD9        db  3Ah ; :             ; DATA XREF: seg000:000000003EFDE16E↓o
+seg000:0000000000003BDA                 dw 0B464h, 0B098h, 2160h
+seg000:0000000000003BE0                 db    7
+seg000:0000000000003BE1                 db  13h
+seg000:0000000000003BE2                 db  26h ; &
+seg000:0000000000003BE3                 db 0CCh
+seg000:0000000000003BE4                 db  58h ; X
+seg000:0000000000003BE5                 db  50h ; P
+seg000:0000000000003BE6                 db    3
+seg000:0000000000003BE7                 db  46h ; F
+seg000:0000000000003BE8 ; ---------------------------------------------------------------------------
+seg000:0000000000003BE8                 adc     eax, 9164592Fh
+seg000:0000000000003BED                 jmp     loc_11B84739
+seg000:0000000000003BED ; ---------------------------------------------------------------------------
+seg000:0000000000003BF2                 db  94h
+seg000:0000000000003BF3                 db 0D9h
+seg000:0000000000003BF4                 dd offset unk_3B76CB60
+seg000:0000000000003BF8                 db  76h ; v
+seg000:0000000000003BF9                 db 0ECh
+seg000:0000000000003BFA                 db 90h
+seg000:0000000000003BFB                 db 44h, 52h, 8Ch, 0BBh, 1
+seg000:0000000000003C00 off_3C00        dq 88226C9A3D3C8E07h    ; DATA XREF: seg000:000000000AC46EA1↓o
+seg000:0000000000003C00                                         ; seg000:0000000000A6D154↓o ...
+seg000:0000000000003C08                 db 0C0h
+seg000:0000000000003C09 unk_3C09        db    8                 ; DATA XREF: seg000:000000000296107A↓o
+seg000:0000000000003C0A                 db 0A4h
+seg000:0000000000003C0B                 db 0A7h
+seg000:0000000000003C0C unk_3C0C        db  6Dh ; m             ; DATA XREF: seg000:0000000001CCDDB5↓o
+seg000:0000000000003C0D                 db  6Fh ; o
+seg000:0000000000003C0E                 db 0E2h
+seg000:0000000000003C0F unk_3C0F        db 0C8h                 ; DATA XREF: seg000:0000000000CB2411↓o
+seg000:0000000000003C10                 db  67h ; g
+seg000:0000000000003C11 unk_3C11        db  3Bh ; ;             ; DATA XREF: seg000:00000000325A2607↓o
+seg000:0000000000003C12                 db  77h ; w
+seg000:0000000000003C13                 db 58h, 0ADh, 58h, 89h, 0C3h
+seg000:0000000000003C18 off_3C18        dq 0C2603AE001880180h   ; DATA XREF: seg000:000000000108A74B↓o
+seg000:0000000000003C18                                         ; seg000:000000003EF6AC3C↓o
+seg000:0000000000003C20                 db 0A4h
+seg000:0000000000003C21                 db 52h, 0C1h, 0E2h, 5Ah, 0BFh, 0D5h, 0E3h
+seg000:0000000000003C28                 db  52h ; R
+seg000:0000000000003C29                 db 0A7h, 0ACh, 3Ah, 9Bh, 7Fh, 23h, 0F5h
+seg000:0000000000003C30 unk_3C30        db 0FCh                 ; DATA XREF: seg000:00000000010F375F↓o
+seg000:0000000000003C30                                         ; seg000:0000000034D4D14D↓o
+seg000:0000000000003C31                 db 9Ch, 0ECh, 0C4h, 0A3h, 0FDh, 57h, 9Dh
+seg000:0000000000003C38                 db  96h
+seg000:0000000000003C39                 db 40h, 0D0h, 0A6h, 88h, 8Dh, 0F5h, 89h
+seg000:0000000000003C40                 db 0DDh
+seg000:0000000000003C41                 db 0BFh
+seg000:0000000000003C42                 db 0C8h
+seg000:0000000000003C43                 db  95h
+seg000:0000000000003C44                 dd 0DB9AE752h
+seg000:0000000000003C48                 db  75h ; u
+seg000:0000000000003C49 byte_3C49       db 27h, 2 dup(36h), 0AFh, 48h, 1, 12h
+seg000:0000000000003C49                                         ; DATA XREF: seg000:0000000001F65B86↓o
+seg000:0000000000003C50                 dq 321D081020408102h
+seg000:0000000000003C58                 db  32h ; 2
+seg000:0000000000003C59                 db  6Fh ; o
+seg000:0000000000003C5A                 dw 8210h, 8C8Ch, 8282h
+seg000:0000000000003C60                 db  82h
+seg000:0000000000003C61 byte_3C61       db 3 dup(82h), 42h, 28h, 21h, 0C8h
+seg000:0000000000003C61                                         ; DATA XREF: seg000:0000000002955A33↓o
+seg000:0000000000003C61                                         ; seg000:0000000010D26651↓o
+seg000:0000000000003C68                 db  92h
+seg000:0000000000003C69                 dd offset loc_2C161308+1
+seg000:0000000000003C6D                 db 0E4h
+seg000:0000000000003C6E                 dd offset off_1984C260
+seg000:0000000000003C72                 db  0Bh
+seg000:0000000000003C73                 db    4
+seg000:0000000000003C74                 db  1Bh
+seg000:0000000000003C75                 db 7Dh, 64h, 91h
+seg000:0000000000003C78 off_3C78        dq 0EE3204240A6F1645h   ; DATA XREF: seg000:000000003EFC3E6E↓o
+seg000:0000000000003C80                 db 0ADh
+seg000:0000000000003C81                 db 0D8h, 36h, 0B3h, 75h, 8Bh, 1Dh, 3Bh
+seg000:0000000000003C88                 db  19h
+seg000:0000000000003C89                 db  24h ; $
+seg000:0000000000003C8A word_3C8A       dw 9127h, 0F7E4h, 0E035h
+seg000:0000000000003C8A                                         ; DATA XREF: seg000:0000000002F08DD2↓o
+seg000:0000000000003C90                 db 0C0h
+seg000:0000000000003C91                 db  81h
+seg000:0000000000003C92                 db 0DEh
+seg000:0000000000003C93 off_3C93        dd offset unk_110440C   ; DATA XREF: seg000:000000003EFE595E↓o
+seg000:0000000000003C97                 dd offset off_E3F49E0
+seg000:0000000000003C9B                 db 0ECh
+seg000:0000000000003C9C                 dd 0B1586D83h
+seg000:0000000000003CA0                 db  12h
+seg000:0000000000003CA1                 dd offset unk_20603667
+seg000:0000000000003CA5 ; ---------------------------------------------------------------------------
+seg000:0000000000003CA5                 xchg    bh, [rcx+77h]
+seg000:0000000000003CA8                 popfq
+seg000:0000000000003CA9                 cwde
+seg000:0000000000003CAA
+seg000:0000000000003CAA loc_3CAA:                               ; DATA XREF: seg000:00000000003459AE↓o
+seg000:0000000000003CAA                 mov     cs:dword_1A934633, esi
+seg000:0000000000003CB0                 popfq
+seg000:0000000000003CB1                 fstp    qword ptr [rsi]
+seg000:0000000000003CB3                 test    al, 0AAh
+seg000:0000000000003CB5                 mov     ch, 0B8h
+seg000:0000000000003CB7                 retn
+seg000:0000000000003CB7 ; ---------------------------------------------------------------------------
+seg000:0000000000003CB8 unk_3CB8        db  43h ; C             ; DATA XREF: seg000:0000000024F91019↓o
+seg000:0000000000003CB9                 db  57h ; W
+seg000:0000000000003CBA                 db  2Fh ; /
+seg000:0000000000003CBB                 db 0FBh
+seg000:0000000000003CBC                 db 0E7h
+seg000:0000000000003CBD                 db 0EAh
+seg000:0000000000003CBE                 db 0F9h
+seg000:0000000000003CBF                 db 0E2h
+seg000:0000000000003CC0                 db  5Bh ; [
+seg000:0000000000003CC1                 dd offset byte_14F7FF37
+seg000:0000000000003CC5                 db  66h ; f
+seg000:0000000000003CC6 unk_3CC6        db 0AFh                 ; DATA XREF: seg000:00000000013F2C68↓o
+seg000:0000000000003CC7                 db 28h
+seg000:0000000000003CC8                 db  5Eh ; ^
+seg000:0000000000003CC9 byte_3CC9       db 39h, 7Ch, 0ACh, 0CEh, 16h, 0FFh, 0F8h
+seg000:0000000000003CC9                                         ; DATA XREF: seg000:off_3EFDBCFE↓o
+seg000:0000000000003CD0                 db  61h ; a
+seg000:0000000000003CD1                 db 0F5h
+seg000:0000000000003CD2                 dw 0F0EAh, 8AC2h, 0A547h
+seg000:0000000000003CD8                 db 0C1h
+seg000:0000000000003CD9                 db  76h ; v
+seg000:0000000000003CDA                 db  7Fh ; 
+seg000:0000000000003CDB                 dd offset unk_2F21DEDF
+seg000:0000000000003CDF                 db 9
+seg000:0000000000003CE0                 db  56h ; V
+seg000:0000000000003CE1                 db 51h, 0BFh, 0Fh, 47h, 0Dh, 0CAh, 26h
+seg000:0000000000003CE8                 db 0D6h
+seg000:0000000000003CE9                 db 0D8h
+seg000:0000000000003CEA                 db  0Ah
+seg000:0000000000003CEB                 db  4Ch ; L
+seg000:0000000000003CEC                 db  27h ; '
+seg000:0000000000003CF1 ; ---------------------------------------------------------------------------
+seg000:0000000000003CF1                 xor     al, 0DDh
+seg000:0000000000003CF3                 pop     rdx
+seg000:0000000000003CF4                 cdq
+seg000:0000000000003CF5                 insd
+seg000:0000000000003CF6                 retf
+seg000:0000000000003CF6 ; ---------------------------------------------------------------------------
+seg000:0000000000003CF7                 db  2Bh ; +
+seg000:0000000000003CF8                 db 0EAh
+seg000:0000000000003CF9                 db 0BEh, 0C6h, 47h, 0D9h, 0FAh, 7, 0BAh
+seg000:0000000000003D00 ; ---------------------------------------------------------------------------
+seg000:0000000000003D00                 in      eax, dx
+seg000:0000000000003D01                 retf
+seg000:0000000000003D01 ; ---------------------------------------------------------------------------
+seg000:0000000000003D02                 db 0FCh
+seg000:0000000000003D03 byte_3D03       db 0AEh, 91h, 0C4h, 0FEh, 0E9h
+seg000:0000000000003D03                                         ; DATA XREF: seg000:0000000000A9BC67↓o
+seg000:0000000000003D03                                         ; seg000:0000000000BAB591↓o ...
+seg000:0000000000003D08                 db 0DAh
+seg000:0000000000003D09 byte_3D09       db 0DAh, 0E4h, 8Dh, 0DAh, 40h, 84h, 0A9h
+seg000:0000000000003D09                                         ; DATA XREF: seg000:0000000000CE4236↓o
+seg000:0000000000003D10                 db  2Bh ; +
+seg000:0000000000003D11                 db  98h
+seg000:0000000000003D12                 db  71h ; q
+seg000:0000000000003D13                 db 0D7h
+seg000:0000000000003D14                 db  27h ; '
+seg000:0000000000003D15                 db  68h ; h
+seg000:0000000000003D16                 db 0BCh
+seg000:0000000000003D17                 db 0CCh
+seg000:0000000000003D18                 dq 0A1B162C50A183040h
+seg000:0000000000003D20                 db 0DCh
+seg000:0000000000003D21                 db 0EDh
+seg000:0000000000003D22                 dw 0B634h, 9426h, 0B194h
+seg000:0000000000003D28                 db  96h
+seg000:0000000000003D29                 db 46h, 23h, 11h, 81h, 7Bh, 0C8h, 3
+seg000:0000000000003D30                 db  80h
+seg000:0000000000003D31                 db 0D3h
+seg000:0000000000003D32 unk_3D32        db  76h ; v             ; DATA XREF: seg000:000000000EE50191↓o
+seg000:0000000000003D33                 db 0E0h, 0Ah, 46h, 4Eh, 0C7h
+seg000:0000000000003D38 off_3D38        dq 8C062DA20A5B0560h    ; DATA XREF: seg000:0000000000BF82B9↓o
+seg000:0000000000003D40                 db  10h
+seg000:0000000000003D41                 db  41h ; A
+seg000:0000000000003D42                 db  32h ; 2
+seg000:0000000000003D43 off_3D43        dd offset unk_3E358B2C  ; DATA XREF: seg000:off_3EFE09E4↓o
+seg000:0000000000003D47                 db 0Eh
+seg000:0000000000003D48                 db  58h ; X
+seg000:0000000000003D49                 dd offset word_3161C612
+seg000:0000000000003D4D                 db  72h ; r
+seg000:0000000000003D4E                 db  1Ch
+seg000:0000000000003D4F                 db  85h
+seg000:0000000000003D50                 db  82h
+seg000:0000000000003D51                 dd offset dword_26E562C2
+seg000:0000000000003D55                 db 0D3h, 22h, 8Ch
+seg000:0000000000003D58                 db  41h ; A
+seg000:0000000000003D59                 db  0Ah
+seg000:0000000000003D5A                 dd offset loc_A0A0A09+1
+seg000:0000000000003D5E off_3D5E        dd offset unk_A32320A   ; DATA XREF: seg000:0000000000EE608A↓o
+seg000:0000000000003D62                 dw 4C08h, 878Ch, 2040h
+seg000:0000000000003D68 ; ---------------------------------------------------------------------------
+seg000:0000000000003D68
+seg000:0000000000003D68 loc_3D68:                               ; DATA XREF: seg000:00000000012B6D19↓o
+seg000:0000000000003D68                 add     dword ptr [rdx], offset off_CC0804
+seg000:0000000000003D6F                 retn
+seg000:0000000000003D6F ; ---------------------------------------------------------------------------
+seg000:0000000000003D70                 db  65h ; e
+seg000:0000000000003D71                 db 0BDh
+seg000:0000000000003D72                 db 0BEh
+seg000:0000000000003D73                 db  91h
+seg000:0000000000003D74                 dd 0AB520DD1h
+seg000:0000000000003D78                 db  1Ah
+seg000:0000000000003D79 off_3D79        dd offset nullsub_8     ; DATA XREF: seg000:00000000013AAC31↓o
+seg000:0000000000003D7D                 db 35h, 19h, 4Fh
+seg000:0000000000003D80                 db  5Fh ; _
+seg000:0000000000003D81                 db 0E9h, 1Ah, 0A3h, 41h, 3Fh, 5Fh, 0D5h
+seg000:0000000000003D88                 dq 152CC7522A938348h
+seg000:0000000000003D90                 db  49h ; I
+seg000:0000000000003D91                 db 9Ah, 0DBh, 5Eh, 0B3h, 72h, 0E0h, 62h
+seg000:0000000000003D98                 db 0B4h
+seg000:0000000000003D99                 db 0AEh
+seg000:0000000000003D9A                 dd offset unk_30B32C3C
+seg000:0000000000003D9E word_3D9E       dw 3630h                ; DATA XREF: seg000:00000000019C25DB↓o
+seg000:0000000000003DA0                 db 0D2h
+seg000:0000000000003DA1                 db 0A7h
+seg000:0000000000003DA2 word_3DA2       dw 0FD0Bh, 7668h, 8359h ; DATA XREF: seg000:000000003D7D7C9B↓o
+seg000:0000000000003DA8                 db 0EBh
+seg000:0000000000003DA9 byte_3DA9       db 0AFh, 3, 0EFh, 7Eh, 68h, 69h, 0DFh
+seg000:0000000000003DA9                                         ; DATA XREF: seg000:0000000001639C11↓o
+seg000:0000000000003DB0                 db 0BCh
+seg000:0000000000003DB1                 db 0A3h
+seg000:0000000000003DB2                 db  5Eh ; ^
+seg000:0000000000003DB3                 db  3Bh ; ;
+seg000:0000000000003DB4                 db 0B0h
+seg000:0000000000003DB5                 db  2Fh ; /
+seg000:0000000000003DB6                 db 0DCh
+seg000:0000000000003DB7                 db 0DDh
+seg000:0000000000003DB8                 db 0EBh
+seg000:0000000000003DB9                 db  9Eh
+seg000:0000000000003DBA                 db  94h
+seg000:0000000000003DBB                 db  25h ; %
+seg000:0000000000003DBC                 db 0AFh
+seg000:0000000000003DBD                 db  2Fh ; /
+seg000:0000000000003DBE                 db  70h ; p
+seg000:0000000000003DBF                 db 0CEh
+seg000:0000000000003DC0 unk_3DC0        db  10h                 ; DATA XREF: seg000:0000000001964104↓o
+seg000:0000000000003DC1                 db  19h
+seg000:0000000000003DC2 word_3DC2       dw 0D108h, 9FA8h, 8B4Ch ; DATA XREF: seg000:00000000015185D6↓o
+seg000:0000000000003DC8                 db  72h ; r
+seg000:0000000000003DC9 byte_3DC9       db 0EDh, 3Fh, 0B9h, 0F0h, 0FCh, 0A0h, 34h
+seg000:0000000000003DC9                                         ; DATA XREF: seg000:000000000299F0CA↓o
+seg000:0000000000003DD0                 db 0BBh
+seg000:0000000000003DD1                 db 0C6h, 0BAh, 0E1h, 0D9h, 81h, 39h, 0EEh
+seg000:0000000000003DD8                 db 0D2h
+seg000:0000000000003DD9                 db 82h, 0FEh, 0Bh, 49h, 81h, 0Fh, 2
+seg000:0000000000003DE0                 db  33h ; 3
+seg000:0000000000003DE1 byte_3DE1       db 82h, 0CCh, 0C5h, 0D7h, 4Eh, 0D4h, 0FAh
+seg000:0000000000003DE1                                         ; DATA XREF: seg000:000000003574FAE7↓o
+seg000:0000000000003DE8                 db  3Dh ; =
+seg000:0000000000003DE9                 db    3
+seg000:0000000000003DEA                 dw 1F21h, 437Bh, 0FFE3h
+seg000:0000000000003DF0                 db 0A8h
+seg000:0000000000003DF1                 db  6Ah ; j
+seg000:0000000000003DF2                 db  0Ch
+seg000:0000000000003DF3                 db 0B6h
+seg000:0000000000003DF4                 db  4Dh ; M
+seg000:0000000000003DF5                 db 0CEh
+seg000:0000000000003DF6                 db  88h
+seg000:0000000000003DF7                 db  7Ah ; z
+seg000:0000000000003DF8 off_3DF8        dq 0B492E2B92BB5AF27h   ; DATA XREF: seg000:0000000000151049↓o
+seg000:0000000000003E00 byte_3E00       db 6Ah                  ; DATA XREF: seg000:00000000010D92B6↓o
+seg000:0000000000003E00                                         ; seg000:0000000031D90792↓o
+seg000:0000000000003E01                 db  2Ch ; ,
+seg000:0000000000003E02 word_3E02       dw 9A45h, 8045h, 0BF75h ; DATA XREF: seg000:off_17F243E↓o
+seg000:0000000000003E02                                         ; seg000:00000000011293F7↓o ...
+seg000:0000000000003E08                 db 0B7h
+seg000:0000000000003E09                 db 0EEh
+seg000:0000000000003E0A                 dw 75DAh, 6D28h, 0E5A6h
+seg000:0000000000003E10                 db 0B7h
+seg000:0000000000003E11                 dd offset off_1E75CED4
+seg000:0000000000003E15                 db 0E7h
+seg000:0000000000003E16                 db  83h
+seg000:0000000000003E17                 db 8
+seg000:0000000000003E18                 db  35h ; 5
+seg000:0000000000003E19                 db 36h, 0D8h, 0EBh, 5Bh, 0B2h, 7Eh, 4Fh
+seg000:0000000000003E20                 db 0F5h
+seg000:0000000000003E21                 db 0B3h, 85h, 5, 67h, 6Fh, 0CFh, 1Ch
+seg000:0000000000003E28                 db  29h ; )
+seg000:0000000000003E29                 dd offset unk_23DB96D4
+seg000:0000000000003E2D                 db 0A3h
+seg000:0000000000003E2E                 db  3Ah ; :
+seg000:0000000000003E2F                 db  26h ; &
+seg000:0000000000003E30                 db 0FEh
+seg000:0000000000003E31 ; ---------------------------------------------------------------------------
